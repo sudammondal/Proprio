@@ -97,6 +97,10 @@ $(document).ready(function() {
             $(".up_icon").removeClass("up_iconFixd");
         }
     });
+
+
+   
    
 }); 
- 
+  /* =============WOW JS==========*/
+    new WOW().init();
