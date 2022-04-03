@@ -1,0 +1,49 @@
+.ProdactWrap {
+    padding-bottom: 60px;
+    .prodactHead {
+        color: #32327b;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1;
+        text-align: center;
+        font-family: "Quicksand", "sans-serif";
+        margin-bottom: 60px;
+    }
+    .ProdactIitems {
+        text-align: center;
+    }
+}
+
+.imagelightbox-arrow {
+    background-color: transparent;
+    margin: 0;
+}
+.imagelightbox-arrow-right:before {
+    font-family: "Fontawesome";
+    content: "\f105"!important;
+}
+.imagelightbox-arrow-left:before {
+    font-family: "Fontawesome";
+    content: "\f104"!important;
+}
+.imagelightbox-loading, 
+.imagelightbox-overlay, 
+.imagelightbox-nav, 
+.imagelightbox-arrow {
+    background: #000000db;
+ 
+}
+.imagelightbox-close {
+    background-color: transparent;
+    &:hover {
+        background-color: transparent;
+    }
+}
+.imagelightbox-arrow, 
+.imagelightbox-arrow {
+    background-color: transparent;
+}
+.imagelightbox-arrow:hover, 
+.imagelightbox-arrow:focus {
+    background-color: transparent;
+}

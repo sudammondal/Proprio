@@ -1,0 +1,40 @@
+.SoftwertryWrap {
+    background-image: url(../image/bbb.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 96px 0;
+    .softwerTweyInner {
+        text-align: center;
+        .softImg {
+            margin-bottom: 21px;
+            .softIMH {
+                width: 87px;
+                height: 87px;
+            }
+        }
+        .softPra {
+            color: #ffffff;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 1.2em;
+            font-family: "Quicksand", "sans-serif";
+            margin-bottom: 28px;
+        }
+        .SoftBtn {
+            .SoftButton {
+                font-size: 17px;
+                text-transform: uppercase;
+                transition: all .3s;
+                font-weight: 600;
+                letter-spacing: -0.2px;
+                fill: #00aeef;
+                color: #00aeef;
+                background-color: #ffffff;
+                border-radius: 25px;
+                padding: 11px 30px;
+                display: inline-block;
+            }
+        }
+    }
+}

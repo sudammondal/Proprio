@@ -1,0 +1,491 @@
+@media (max-width: 1180px) {
+    .CardANDslidWrap {
+        .CtmCol {
+            .CardMain {
+                margin-top: 0px;
+                &.ctmMargn {
+                    margin-top: -155px;
+                }
+                &.ctmMargn2 {
+                    margin-top: -155px;
+                }
+            }
+        }
+    }
+    
+}
+@media (max-width: 1024px) {
+    .CardANDslidWrap {
+        .CtmCol {
+            .CardMain {
+                margin-top: 0px;
+                &.ctmMargn {
+                    margin-top: -155px;
+                }
+            }
+        }
+    }
+    .NewsWrap {
+        .CTMrow {
+            margin-bottom: 25px;
+        }
+    }
+    
+}
+@media (max-width: 920px) {
+    .Header {
+        .navbar {
+            .CtmCont {
+                .NavCollap {
+                    .NavberNav {
+                        height: 373px;
+                        overflow-x: scroll;
+                        align-items: initial;
+                        .nav-item {
+                            .nav-link {
+                                span {
+                                    display: none;
+                                }
+                            }
+                        }
+                        .nav-item.language {
+                            .nav-link {
+                                margin-left: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .navbar-light {
+        .navbar-toggler {
+            color: transparent;
+            border-color: transparent;
+        }
+    }
+    .navbar-light {
+        .navbar-toggler {
+            padding-right: 0;
+        }
+    }
+    .navbar-collapse {
+        border-top: 1px solid #ddd;
+    }
+    .coundingWrap {
+        .MainCoutInner {
+            margin-bottom: 30px;
+        }
+    }
+    .ServiceWrap {
+        .SarviceCTM {
+            .serviceContaine {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .DISCOVERwrap {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .Header {
+        .navbar {
+            .CtmCont {
+                .NavCollap {
+                    .NavberNav {
+                        height: 373px;
+                        overflow-x: scroll;
+                        align-items: initial;
+                        .nav-item {
+                            .nav-link {
+                                span {
+                                    display: none;
+                                }
+                            }
+                        }
+                        .nav-item.language {
+                            .nav-link {
+                                margin-left: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .navbar-light {
+        .navbar-toggler {
+            color: transparent;
+            border-color: transparent;
+        }
+    }
+    .coundingWrap  {
+        padding: 100px 0;
+        .MainCoutInner {
+            margin-bottom: 50px;
+        }
+    }
+    .DISCOVERwrap {
+        .discoverGrid {
+            grid-template-columns: auto;
+        }
+    }
+    .ServiceWrap {
+        .SarviceCTM {
+            .serviceContaine {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .PartnerWrap {
+        .BrandGrid {
+            grid-template-columns: auto auto;
+        }
+    }
+    .ProdactWrap {
+        .ProdactIitems {
+            margin-bottom: 30px;
+        }
+    }
+    .footerWrap {
+        .CtmContiner {
+            .footerGrid {
+                grid-template-columns: 50% 50%;
+            }
+        }
+    }
+    .footerWrap {
+        .CtmContiner {
+            .footerGrid {
+                .FooterInner {
+                    .FooterSubmit {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .BannerWrap {
+        .BannerMain {
+            .Banner_head {
+                font-size: 30px;
+            }
+            .BannerPrag {
+                width: auto;
+                font-size: 16px;
+            }
+            .AppButtonWrap {
+                .AppBtn {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+    .RatingWrap {
+        .RatingMain{
+            .RatingHead {
+                font-size: 30px;
+            }
+        }
+    }
+    .footerWrap {
+        .CtmContiner{
+            .footerGrid {
+                .FooterInner {
+                    .footerSaport {
+                        padding-left: 10px;
+                    }
+                    .FooterManu {
+                        padding: 0 10px;
+                    }
+                    .FooterSubmit {
+                        padding-left: 10px;
+                    }
+                    .footerSubmitMail {
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    } 
+}
+@media (max-width: 720px) {
+    .CardANDslidWrap {
+        .CtmCol {
+            .CardMain {
+                margin-top: 0px;
+                &.ctmMargn {
+                    margin-top: 0px;
+                }
+                &.ctmMargn2 {
+                    margin-top: -155px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 570px) {
+    .CardANDslidWrap {
+        .CtmCol {
+            .CardMain {
+                margin-top: 0px;
+                &.ctmMargn {
+                    margin-top: 0px;
+                }
+                &.ctmMargn2 {
+                    margin-top: -155px;
+                }
+            }
+        }
+    }
+    .navbar-brand {
+        margin-left: 10px;
+    }
+    .navbar-light .navbar-toggler {
+        padding-right: 15px;
+    }
+}
+@media (max-width: 540px) {
+    .footerWrap {
+        .CtmContiner{
+            .footerGrid {
+                .FooterInner {
+                    .footerSaport {
+                        padding-left: 10px;
+                    }
+                    .FooterManu {
+                        padding: 0 10px;
+                    }
+                    .FooterSubmit {
+                        padding-left: 10px;
+                    }
+                    .footerSubmitMail {
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    } 
+}
+@media (max-width: 425px) {
+    .Header {
+        .navbar {
+            .CtmCont {
+                padding: 0 10px;
+                .NavCollap {
+                    .NavberNav {
+                        height: 373px;
+                        overflow-x: scroll;
+                        .nav-item {
+                            .nav-link {
+                                span {
+                                    display: none;
+                                }
+                            }
+                            &.language {
+                                .nav-link {
+                                    margin-left: 14px;
+                                } 
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    .navbar-brand {
+        margin-left: 10px;
+    }
+    .CardANDslidWrap {
+        .CtmCol {
+            .CardMain {
+                margin-top: 0px;
+                &.ctmMargn {
+                    margin-top: 0px;
+                }
+                &.ctmMargn2 {
+                    margin-top: -155px;
+                }
+                .CardTitle {
+                    .Title_link {
+                        .CardPra {
+                            font-size: 18px;
+                        } 
+                    }
+                }
+            }
+        }
+        .SliderMain {
+            .SliderTitle {
+                font-size: 30px;
+            }
+        }
+        .testmonials_slied {
+            .main_slieda_ttstmonials {
+                .test_slid_items {
+                    .slid_pra2 {
+                        font-size: 16px;
+                        margin-left: 15px;
+                        margin-right: 15px;
+                    }
+                }
+            }
+            
+        }
+    }
+    .coundingWrap {
+        .MainCoutInner {
+            .CoundingHead {
+                font-size: 35px;
+            }
+            .coundPrag {
+                font-size: 18px;
+            }
+        }
+    }
+    .FreeTrylWrap {
+        .gridTryl {
+            display: block;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            .trylItems {
+                margin-bottom: 20px;;
+            }
+    }
+    }
+    .VedioWrap {
+        .MAinVedioInner {
+            width: 100%;
+        }
+    }
+    .DISCOVERwrap {
+        .discoverGrid {
+            .discoverInner {
+                .discoverElament {
+                    margin-bottom: 30px;
+                    .dicoverPra {
+                        padding: 22px 30px 0px 40px;
+                    }
+                    .DiscoverButtonMain {
+                        padding-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+    .ServiceWrap {
+        .SERVICEHead {
+            font-size: 30px;
+        }
+        .SarviceCTM {
+            padding: 0 50px;
+            .serviceContaine {
+                padding: 40px 15px 5px 15px;
+            }
+        }
+    }
+    .PartnerWrap {
+        .BrandGrid {
+            grid-template-columns: auto;
+            .BrandIMgMain {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .footerWrap {
+        .CtmContiner {
+            .footerGrid {
+                grid-template-columns:100%;
+                text-align: center;
+            }
+        }
+        .footerBtm {
+            margin-top: 35px;
+            .footerBtmBar {
+                .footerBtmPra {
+                    font-size: 14px;
+                }
+                .Standis {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 320px) {
+    .Header {
+        .navbar {
+            .CtmCont {
+                .NavCollap {
+                    .NavberNav {
+                        height: 373px;
+                        overflow-x: scroll;
+                    }
+                }
+                .navbar-brand {
+                    img {
+                        max-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .navbar-toggler-icon {
+        height: 25px;
+        width: 25px;
+    }
+    .BannerWrap {
+        padding: 120px 0 100px;
+    }
+    .DISCOVERwrap {
+        .discoverGrid {
+            .discoverImg {
+                .DiscIMGright {
+                    margin-left: 0; 
+                    margin-right: 0;
+                }
+                .DiscIMG {
+                    margin-left: 40px;
+                } 
+            }
+        }
+    }
+    .ServiceWrap {
+        .SarviceCTM {
+            padding: 0 15px;
+            .serviceContaine {
+                .sarviceImg {
+                    .sarviceIMG {
+                        font-size: 36px;
+                    } 
+                }
+            }
+            
+        }
+    }
+    .PartnerWrap {
+        .BrandGrid {
+            .BrandIMgMain {
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .up_icon {
+        a {
+            width: 40px;
+            height: 40px; 
+        }
+    }
+    .up_icon {
+        bottom: 0px;
+        right: 10px;
+    }
+    .up_iconFixd {
+        bottom: 10px;
+        right: 10px;
+    }
+}

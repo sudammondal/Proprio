@@ -1,0 +1,76 @@
+.DISCOVERwrap {
+    padding-top: 100px;
+    .discoverGrid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        justify-content: center;
+        .discoverInner {
+            .discoverHead {
+                color: #32327b;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 1.1em;
+                font-family: "Quicksand", "sans-serif";
+                margin-bottom: 20px;
+            }
+            .discoverElament {
+                background-image: url(../image/LeftBracet.png);
+                background-position: top left;
+                background-repeat: no-repeat;
+                padding: 10px;
+                .dicoverPra {
+                    font-family: "Quicksand", "sans-serif";
+                    font-size: 14px;
+                    line-height: 1.9844;
+                    font-weight: 400;
+                    color: #5c5c5c;
+                    padding: 31px 107px 0px 40px;
+                    margin-bottom: 35px;
+                }
+                .DiscoverButtonMain {
+                    text-align: center;
+                    padding-right: 107px;
+                    .discoverButton {
+                        border-color: #00aeef;
+                        font-family: "Quicksand", "sans-serif";
+                        font-weight: 600;
+                        fill: #00aeef;
+                        color: #00aeef;
+                        background-color: #ffffff;
+                        border-style: solid;
+                        border-width: 4px 4px 4px 4px;
+                        border-radius: 25px 25px 25px 25px;
+                        box-shadow: 7px 9px 0px 0px #e0e0e9;
+                        display: inline-block;
+                        line-height: 1;
+                        font-size: 15px;
+                        padding: 12px 24px;
+                        transition: all .3s;
+                        &:hover {
+                            color: #32327b;
+                            background-color: #ffffff;
+                            border-color: #32327b;
+                        }
+                    }
+                }
+            }
+        }
+        .discoverImg {
+            .DiscIMG {
+                vertical-align: middle;
+                display: inline-block;
+                max-width: 83%;
+                width: 100%;
+                margin-left: 85px;
+            }
+            .DiscIMGright {
+                margin-right: 85px;
+                vertical-align: middle;
+                display: inline-block;
+                max-width: 83%;
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.FreeTrylWrap {
+    padding-top: 45px;
+    .gridTryl {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        .trylItems {
+            .trylTop {
+                color: #00aeef;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 1.1rem;
+                font-family: "Quicksand" ,"sans-serif";
+                padding: 0;
+                margin: 0;
+            }
+            .trialHead {
+                color: #32327b;
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 1.1em;
+                font-family: "Quicksand" ,"sans-serif";
+                margin: 0;
+            }
+        }
+        .ButtonWrap {
+            .ButtoN {
+                font-size: 17px;
+                text-transform: uppercase;
+                text-align: center;
+                transition: all .3s;
+                font-weight: 600;
+                letter-spacing: -0.2px;
+                fill: #ffffff;
+                color: #fff;
+                background-color: #00bfff;
+                border-radius: 25px;
+                padding: 11px 30px;
+                display: inline-block;
+                .PEndant {
+                    color: rgb(0, 174, 239);
+                    color: #32327b;
+                }
+                &:hover {
+                    color: #32327b;
+                    background-color: #00bfff;
+                }
+            }
+
+        }
+    }
+}

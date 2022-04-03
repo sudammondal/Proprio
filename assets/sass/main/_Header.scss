@@ -1,0 +1,124 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+    z-index: 888;
+    transition: all 0.5s ease;
+    .navbar {
+        padding: 19px 0;
+        .CtmCont {
+            padding: 0px;
+            .navbar-brand {
+                img {
+                    max-height: 55px;
+                    width: auto;
+                }
+            }
+            .NavCollap {
+                .NavberNav {
+                    align-items: center;
+                    justify-content: flex-start;
+                    .nav-item {
+                        .nav-link {
+                            color: #5d5d5d;
+                            font-size: 14px;
+                            font-weight: 400;
+                            padding: 15px 0;
+                            margin: 0 15px;
+                            transition: all 0.1s linear;
+                            position: relative;
+                            &::before {
+                                position: absolute;
+                                content: "";
+                                bottom: 15px;
+                                right: 0;
+                                width: 0%;
+                                height: 1px;
+                                background-color: #3A3B74;
+                                opacity: 0;
+                                transition: all 0.3s;
+                            }
+                            &:hover {
+                                color: #5d5d5d;
+
+                                &::before {
+                                    width: 100%;
+                                    right: auto;
+                                    left: 0;
+                                    opacity: 1;
+                                }
+                            }
+                            span {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: #32327b;
+                            }
+                            &.freeButton {
+                                font-family: "Quicksand", "sans-serif";
+                                font-size: 14px;
+                                font-weight: 300;
+                                color: #fff;
+                                font-style: normal;
+                                background: #32327b;
+                                border: 1px solid rgba(0, 0, 0, 0.4);
+                                padding: 6px 19px;
+                                border-radius: 50px;
+                                transition: all 0.2s linear;
+                                &::before {
+                                    display: none;
+                                }
+
+                                &:hover {
+                                    background-color: transparent;
+                                    color: #5d5d5d;
+                                    border-color: #32327b;
+                                }
+                            }
+                        }
+                        &.dropdown {
+                            .dropdown-menu {
+                                background-color: #fff;
+                                border-bottom-left-radius: 0px;
+                                border-bottom-right-radius: 0px;
+                                border: 0;
+                                box-shadow: 0 0 5px 0 #00000033;
+                                li {
+                                    a {
+                                        color: #32327b;
+                                        background: transparent;
+                                        font-weight: 600;
+                                        font-size: 14px;
+
+                                        &:hover {
+                                            color: #000;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &.dropdown {
+                            &:hover {
+                                .dropdown-menu {
+                                    display: block;
+                                }
+                            }
+                        }
+                        &.language {
+                            .nav-link {
+                                margin-left: 0;
+                            }
+                            .dropdown-menu {
+                                // left: auto;             
+                                right: 0;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

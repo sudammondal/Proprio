@@ -1,0 +1,73 @@
+.ServiceWrap {
+    padding: 62px 0;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #00aeef 0%, #3fc5ff 100%); 
+    .SERVICEHead {
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1;
+        text-align: center;
+        font-family: "Quicksand", "sans-serif";
+        margin-bottom: 46px;
+    }
+    .SarviceCTM {
+        padding: 0 5px;
+        .serviceContaine {
+            padding: 77px 25px 25px 25px;
+            background-color: rgba(0,0,122,0.43);
+            border-radius: 8px;
+            cursor: pointer;
+            .sarviceImg { 
+                text-align: center;
+                margin-bottom: 21px;
+                .sarviceIMG {
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    font-size: 50px;
+                    color: #fff;
+                }
+            }
+            .containt_hed {
+                color: #ffffff;
+                fill: #55595c;
+                font-size: 23px;
+                font-family: "Quicksand", "sans-serif";
+                font-weight: 600;
+                line-height: 1.1;
+                text-align: center;
+                margin-bottom: 21px;
+            }
+            .containtPrag {
+                color: #ffffff;
+                fill: #55595c;
+                text-align: center;
+                font-family: "Lato", "sans-serif";
+                font-size: 14px;
+                line-height: 1.42857143;
+                margin-bottom: 19px;
+                padding: 0 37px;
+            }
+            .ServiceBtn {
+                text-align: center;
+                margin-bottom: 38px;
+                .Button {
+                    color: #ffffff;
+                    border-color: #ffffff;
+                    border-radius: 25px;
+                    align-self: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border: 2px solid #fff;
+                    display: inline-block;
+                    line-height: 1;
+                    font-size: 15px;
+                    padding: 12px 24px;
+                    text-align: center;
+                    transition: all .3s;
+                }
+            }
+        } 
+    }
+      
+}

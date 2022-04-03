@@ -1,0 +1,166 @@
+.footerWrap {
+    background: #333581;
+    color: #d2d2d2;
+    padding-top: 70px;
+    .CtmContiner {
+        max-width: 1170px;
+        .footerGrid {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            justify-content: center;
+            .FooterInner {
+                .FooterLogoimg {
+                    margin-bottom: 40px;
+                    a {
+                        .FooterIMG {
+                            width: 230px;
+                            height: 74px;
+                        }
+                    }
+                }
+                .footerSaport {
+                    margin-bottom: 40px;
+                    .footerPrag {
+                        color: #fff;
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 165%;
+                        margin: 0px;
+                    }
+                }
+                .FooterManu {
+                    padding: 0 57px;
+                    margin-bottom: 40px;
+                    .footerList {
+                        border-bottom: 1px solid rgba(255,255,255,0.05);
+                        .footerLink {
+                            font-size: 15px;
+                            line-height: 165%;
+                            font-family: "Quicksand", sans-serif;
+                            padding: 5px 0;
+                            color: #fff;
+                            font-weight: 500;
+                            text-transform: capitalize;
+        
+                        }
+                    }
+                }
+                .FooterSubmit {
+                    margin-bottom: 94px;
+                    padding-left: 23px;
+                    .submitHead {  
+                        color: #fff;
+                        font-size: 18px;
+                        font-weight: 400;
+                        margin-top: 0;
+                        padding-bottom: 20px;
+                        margin-bottom: 26px;
+                        border-bottom: 1px solid rgba(255,255,255,0.1);
+                        font-family: "Quicksand", sans-serif;
+                    }
+                }
+                .footerSubmitMail {
+                    padding-left: 23px;
+                    form {
+                        .F_Mail {
+                            input {
+                                background-color: rgba(255, 255, 255, 0.2) !important;
+                                color: #fff !important;
+                                border: 0 !important;
+                                width: 100% !important;
+                                max-width: 450px !important;
+                                font-family: "Lato",sans-serif;
+                                font-size: 13px;
+                                height: 46px;
+                                margin-bottom: 0;
+                                padding: 0 15px;
+                                border-radius: 5px;
+                                box-shadow: none;
+                                margin-bottom: 25px;
+                            }
+                        }
+                        .SubmitBtn {
+                            background: #fffefe;
+                            border-color: #cccccc;
+                            color: #444444;
+                            box-shadow: 0 1px 1px #eeeeee;
+                            font-size: 14px;
+                            padding: 6px 11px;
+                            &:hover {
+                                background: #efefef;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footerBtm {
+        margin-top: 78px;
+        padding: 15px 0;
+        background-color: #e1e1e1;
+        .footerBtmBar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .footerBtmPra {
+                color: #32327b;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1;
+                font-family: "Quicksand";
+                margin: 0;
+            }
+            .Standis {
+                margin: 0;
+                font-size: 17px;
+                text-transform: capitalize;
+                font-weight: 700;
+                max-width: 85px;
+                cursor: pointer;
+                max-height: 20px; 
+                fill: #8a8a8a;
+                color: #a3a3a3;
+                transition: all 300ms;
+                &:hover {
+                    color: #fff;
+                } 
+            }
+        }
+        
+    }
+    
+}
+.up_icon {
+        position: fixed;
+        bottom: 10px;
+        right: 18px;
+        z-index: 1;
+        transition: all 0.5s;
+        opacity: 0;
+        a {
+            text-decoration: none;
+            color: #fff;
+            background-color: rgba(000,000,000,0.3);
+            border-radius: 5px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .UpIcon {
+                font-size: 20px;
+            }
+        }
+        &:hover {
+            a {
+                background-color: rgba(000,000,000,0.5);
+            }
+        }
+    }
+    .up_iconFixd {
+        bottom: 18px;
+        right: 18px;
+        z-index: 1;
+        opacity: 1;
+    }
