@@ -33,104 +33,118 @@ body {
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
+  .Header.headerFixed .navbar {
+    padding: 0;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    .Header.headerFixed .navbar .CtmCont .navbar-brand img {
+      height: 100%;
+      width: 100px; }
   .Header .navbar {
-    padding: 19px 0; }
-    .Header .navbar .CtmCont {
-      padding: 0px; }
-      .Header .navbar .CtmCont .navbar-brand img {
-        max-height: 55px;
-        width: auto; }
-      .Header .navbar .CtmCont .NavCollap .NavberNav {
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: flex-start; }
-        .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link {
+    padding: 19px 0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .Header .navbar .CtmCont .navbar-brand img {
+      max-width: 150px;
+      width: 100%;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .Header .navbar .CtmCont .NavCollap .NavberNav {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start; }
+      .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link {
+        color: #5d5d5d;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 15px 0;
+        margin: 0 15px;
+        -webkit-transition: all 0.1s linear;
+        -o-transition: all 0.1s linear;
+        transition: all 0.1s linear;
+        position: relative; }
+        .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link::before {
+          position: absolute;
+          content: "";
+          bottom: 15px;
+          right: 0;
+          width: 0%;
+          height: 1px;
+          background-color: #3A3B74;
+          opacity: 0;
+          -webkit-transition: all 0.3s;
+          -o-transition: all 0.3s;
+          transition: all 0.3s; }
+        .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link:hover {
           color: #5d5d5d;
+          font-size: 15px; }
+          .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link:hover::before {
+            width: 100%;
+            right: auto;
+            left: 0;
+            opacity: 1; }
+        .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link span {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          color: #32327b; }
+        .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link.freeButton {
+          font-family: "Quicksand", "sans-serif";
           font-size: 14px;
-          font-weight: 400;
-          padding: 15px 0;
-          margin: 0 15px;
-          -webkit-transition: all 0.1s linear;
-          -o-transition: all 0.1s linear;
-          transition: all 0.1s linear;
-          position: relative; }
-          .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link::before {
-            position: absolute;
-            content: "";
-            bottom: 15px;
-            right: 0;
-            width: 0%;
-            height: 1px;
-            background-color: #3A3B74;
-            opacity: 0;
-            -webkit-transition: all 0.3s;
-            -o-transition: all 0.3s;
-            transition: all 0.3s; }
-          .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link:hover {
-            color: #5d5d5d;
-            font-size: 15px; }
-            .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link:hover::before {
-              width: 100%;
-              right: auto;
-              left: 0;
-              opacity: 1; }
-          .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link span {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            color: #32327b; }
-          .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link.freeButton {
-            font-family: "Quicksand", "sans-serif";
-            font-size: 14px;
-            font-weight: 300;
-            color: #fff;
-            font-style: normal;
-            background: #32327b;
-            border: 1px solid rgba(0, 0, 0, 0.4);
-            padding: 6px 19px;
-            border-radius: 50px;
-            -webkit-transition: all 0.2s linear;
-            -o-transition: all 0.2s linear;
-            transition: all 0.2s linear;
-            margin-left: 0; }
-            .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link.freeButton::before {
-              display: none; }
-            .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link.freeButton:hover {
-              background-color: transparent;
-              color: #5d5d5d;
-              border-color: #32327b;
-              font-size: 15px; }
-          .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link.fontSiz:hover {
-            font-size: 14px; }
-        .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item.dropdown .dropdown-menu {
-          background-color: #fff;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          border: 0;
-          -webkit-box-shadow: 0 0 5px 0 #00000033;
-          box-shadow: 0 0 5px 0 #00000033; }
-          .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item.dropdown .dropdown-menu li a {
-            color: #32327b;
-            background: transparent;
-            font-weight: 600;
-            font-size: 14px; }
-            .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item.dropdown .dropdown-menu li a:hover {
-              color: #000; }
-        .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item.dropdown:hover .dropdown-menu {
-          display: block; }
-        .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item.language .nav-link {
+          font-weight: 300;
+          color: #fff;
+          font-style: normal;
+          background: #32327b;
+          border: 1px solid rgba(0, 0, 0, 0.4);
+          padding: 6px 19px;
+          border-radius: 50px;
+          -webkit-transition: all 0.2s linear;
+          -o-transition: all 0.2s linear;
+          transition: all 0.2s linear;
           margin-left: 0; }
-        .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item.language .dropdown-menu {
-          right: 0; }
+          .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link.freeButton::before {
+            display: none; }
+          .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link.freeButton:hover {
+            background-color: transparent;
+            color: #5d5d5d;
+            border-color: #32327b;
+            font-size: 15px; }
+        .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link.fontSiz {
+          font-size: 14px; }
+          .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link.fontSiz::before {
+            display: none; }
+      .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item.dropdown .dropdown-menu {
+        background-color: #fff;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border: 0;
+        -webkit-box-shadow: 0 0 5px 0 #00000033;
+        box-shadow: 0 0 5px 0 #00000033; }
+        .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item.dropdown .dropdown-menu li a {
+          color: #32327b;
+          background: transparent;
+          font-weight: 600;
+          font-size: 14px; }
+          .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item.dropdown .dropdown-menu li a:hover {
+            color: #000; }
+      .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item.dropdown:hover .dropdown-menu {
+        display: block; }
+      .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item.language .nav-link {
+        margin-left: 0; }
+      .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item.language .dropdown-menu {
+        right: 0; }
 
 .BannerWrap {
   padding: 206px 0 109px 0;

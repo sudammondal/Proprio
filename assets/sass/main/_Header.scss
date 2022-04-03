@@ -6,20 +6,41 @@
     box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
     z-index: 888;
     transition: all 0.5s ease;
-    .navbar {
-        padding: 19px 0;
-        .CtmCont {
-            padding: 0px;
-            .navbar-brand {
-                img {
-                    max-height: 55px;
-                    width: auto;
+
+    &.headerFixed {
+        .navbar {
+            padding: 0;
+            transition: all 0.5s ease;
+
+            .CtmCont {
+                .navbar-brand {
+                    img {
+                        height: 100%;
+                        width: 100px;
+                    }
                 }
             }
+        }
+    }
+
+    .navbar {
+        padding: 19px 0;
+        transition: all 0.5s;
+
+        .CtmCont {
+            .navbar-brand {
+                img {
+                    max-width: 150px;
+                    width: 100%;
+                    transition: all 0.5s;
+                }
+            }
+
             .NavCollap {
                 .NavberNav {
                     align-items: center;
                     justify-content: flex-start;
+
                     .nav-item {
                         .nav-link {
                             color: #5d5d5d;
@@ -29,6 +50,7 @@
                             margin: 0 15px;
                             transition: all 0.1s linear;
                             position: relative;
+
                             &::before {
                                 position: absolute;
                                 content: "";
@@ -40,9 +62,11 @@
                                 opacity: 0;
                                 transition: all 0.3s;
                             }
+
                             &:hover {
                                 color: #5d5d5d;
                                 font-size: 15px;
+
                                 &::before {
                                     width: 100%;
                                     right: auto;
@@ -50,12 +74,14 @@
                                     opacity: 1;
                                 }
                             }
+
                             span {
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
                                 color: #32327b;
                             }
+
                             &.freeButton {
                                 font-family: "Quicksand", "sans-serif";
                                 font-size: 14px;
@@ -68,19 +94,22 @@
                                 border-radius: 50px;
                                 transition: all 0.2s linear;
                                 margin-left: 0;
+
                                 &::before {
                                     display: none;
                                 }
+
                                 &:hover {
                                     background-color: transparent;
                                     color: #5d5d5d;
-                                    border-color: #32327b; 
+                                    border-color: #32327b;
                                     font-size: 15px;
                                 }
                             }
+
                             &.fontSiz {
-                                &:hover {
-                                    font-size: 14px;
+                                    font-size: 14px;&::before {
+                                    display: none;
                                 }
                             }
                         }
@@ -92,12 +121,14 @@
                                 border-bottom-right-radius: 0px;
                                 border: 0;
                                 box-shadow: 0 0 5px 0 #00000033;
+
                                 li {
                                     a {
                                         color: #32327b;
                                         background: transparent;
                                         font-weight: 600;
                                         font-size: 14px;
+
                                         &:hover {
                                             color: #000;
                                         }
@@ -105,6 +136,7 @@
                                 }
                             }
                         }
+
                         &.dropdown {
                             &:hover {
                                 .dropdown-menu {
@@ -112,15 +144,17 @@
                                 }
                             }
                         }
+
                         &.language {
                             .nav-link {
                                 margin-left: 0;
                             }
-                            .dropdown-menu {           
+
+                            .dropdown-menu {
                                 right: 0;
                             }
                         }
-                        
+
                     }
                 }
             }

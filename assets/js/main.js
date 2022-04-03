@@ -1,14 +1,22 @@
-$(document).ready(function() {
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("FixedScrol").style.top = "0";
-        } else {
-            document.getElementById("FixedScrol").style.top = "-110px";
+$(document).ready(function () {
+    function headerAutoHedeOnScroll(selector) {
+        var prevScrollpos = window.pageYOffset;
+        var headerHeight = $(selector).height();
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                $(selector).css({
+                    "top": '0'
+                })
+            } else {
+                $(selector).css({
+                    "top": `-${headerHeight}px`
+                })
+            }
+            prevScrollpos = currentScrollPos;
         }
-        prevScrollpos = currentScrollPos;
     }
+    // headerAutoHedeOnScroll('.Header');
 
     // slider js// 
     $('.main_slieda_ttstmonials').slick({
@@ -22,33 +30,33 @@ $(document).ready(function() {
         infinite: true,
         speed: 1500,
         responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    dots: false,
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    dots: false,
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    dots: false,
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    dots: false,
-                }
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                dots: false,
             }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1,
+                dots: false,
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                dots: false,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                dots: false,
+            }
+        }
         ]
     });
     /*---------LIGHT-BOX js-----------*/
@@ -66,21 +74,21 @@ $(document).ready(function() {
         }
     }
     lightBoxImages();
-       //======= pop up===== //
-       function videoPopup() {
+    //======= pop up===== //
+    function videoPopup() {
         if ($('.popup-youtube').length) {
             $('.popup-youtube').magnificPopup({
                 type: 'iframe',
-                gallery:{
-                  enabled:true
+                gallery: {
+                    enabled: true
                 }
             });
         }
     }
     videoPopup();
 
-     // up icon js //
-     $('.up_icon a[href^="#"').on('click', function(event) {
+    // up icon js //
+    $('.up_icon a[href^="#"').on('click', function (event) {
         var target = $(this.getAttribute('href'));
         if (target.length) {
             event.preventDefault();
@@ -90,17 +98,19 @@ $(document).ready(function() {
         }
     });
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if ($(window).scrollTop() > 70) {
             $(".up_icon").addClass("up_iconFixd");
+            $("#FixedScrol").addClass("headerFixed");
         } else {
+            $("#FixedScrol").removeClass("headerFixed");
             $(".up_icon").removeClass("up_iconFixd");
         }
     });
 
 
-   
-   
-}); 
-  /* =============WOW JS==========*/
-    new WOW().init();
+
+
+});
+/* =============WOW JS==========*/
+new WOW().init();
