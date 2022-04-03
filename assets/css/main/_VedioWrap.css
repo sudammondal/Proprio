@@ -1,0 +1,12 @@
+.VedioWrap {
+  background-image: url(../image/vedioBG.png);
+  min-height: 187px;
+  background-repeat: repeat-x;
+  background-position: bottom center; }
+  .VedioWrap .MAinVedioInner {
+    width: 59.996%;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 28px 0px #0000005e;
+    box-shadow: 0px 0px 28px 0px #0000005e; }
+    .VedioWrap .MAinVedioInner .VedioIMH {
+      width: 100%; }
