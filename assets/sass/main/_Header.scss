@@ -42,7 +42,7 @@
                             }
                             &:hover {
                                 color: #5d5d5d;
-
+                                font-size: 15px;
                                 &::before {
                                     width: 100%;
                                     right: auto;
@@ -67,17 +67,24 @@
                                 padding: 6px 19px;
                                 border-radius: 50px;
                                 transition: all 0.2s linear;
+                                margin-left: 0;
                                 &::before {
                                     display: none;
                                 }
-
                                 &:hover {
                                     background-color: transparent;
                                     color: #5d5d5d;
-                                    border-color: #32327b;
+                                    border-color: #32327b; 
+                                    font-size: 15px;
+                                }
+                            }
+                            &.fontSiz {
+                                &:hover {
+                                    font-size: 14px;
                                 }
                             }
                         }
+
                         &.dropdown {
                             .dropdown-menu {
                                 background-color: #fff;
@@ -91,7 +98,6 @@
                                         background: transparent;
                                         font-weight: 600;
                                         font-size: 14px;
-
                                         &:hover {
                                             color: #000;
                                         }
@@ -110,8 +116,7 @@
                             .nav-link {
                                 margin-left: 0;
                             }
-                            .dropdown-menu {
-                                // left: auto;             
+                            .dropdown-menu {           
                                 right: 0;
                             }
                         }

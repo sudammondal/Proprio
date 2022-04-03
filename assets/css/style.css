@@ -70,7 +70,8 @@ body {
             -o-transition: all 0.3s;
             transition: all 0.3s; }
           .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link:hover {
-            color: #5d5d5d; }
+            color: #5d5d5d;
+            font-size: 15px; }
             .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link:hover::before {
               width: 100%;
               right: auto;
@@ -99,13 +100,17 @@ body {
             border-radius: 50px;
             -webkit-transition: all 0.2s linear;
             -o-transition: all 0.2s linear;
-            transition: all 0.2s linear; }
+            transition: all 0.2s linear;
+            margin-left: 0; }
             .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link.freeButton::before {
               display: none; }
             .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link.freeButton:hover {
               background-color: transparent;
               color: #5d5d5d;
-              border-color: #32327b; }
+              border-color: #32327b;
+              font-size: 15px; }
+          .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link.fontSiz:hover {
+            font-size: 14px; }
         .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item.dropdown .dropdown-menu {
           background-color: #fff;
           border-bottom-left-radius: 0px;
