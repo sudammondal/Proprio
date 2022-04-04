@@ -377,7 +377,8 @@ ul.slick-dots {
   background-image: url(../image/bg_cta_proprio.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  overflow: hidden; }
   .coundingWrap .MainCoutInner {
     text-align: center; }
     .coundingWrap .MainCoutInner .CoundingHead {
