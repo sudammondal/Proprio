@@ -1,0 +1,80 @@
+.BannerWrap {
+  padding: 206px 0 109px 0;
+  background-color: #b4b4b4;
+  background-image: url(../image/back-home.jpg);
+  background-repeat: repeat-x;
+  background-position: bottom center; }
+  .BannerWrap .BannerMain {
+    max-width: 921px;
+    width: 100%;
+    margin: 0 auto; }
+    .BannerWrap .BannerMain .Banner_head {
+      color: #00aeef;
+      font-size: 55px;
+      font-weight: 500;
+      line-height: 1.1em;
+      text-align: center;
+      margin-bottom: 22px; }
+    .BannerWrap .BannerMain .BannerPrag {
+      color: #ffffff;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 1.3em;
+      text-align: center;
+      width: 580px;
+      margin: 0 auto;
+      margin: 23px auto; }
+    .BannerWrap .BannerMain .ButtonWrap {
+      text-align: center;
+      margin-bottom: 89px; }
+      .BannerWrap .BannerMain .ButtonWrap .ButtoN {
+        font-size: 16px;
+        text-transform: uppercase;
+        text-align: center;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+        font-weight: 600;
+        letter-spacing: -0.2px;
+        fill: #32327b;
+        color: #32327b;
+        background-color: #ffffff;
+        border-radius: 25px;
+        padding: 11px 30px;
+        display: inline-block; }
+        .BannerWrap .BannerMain .ButtonWrap .ButtoN .PEndant {
+          color: #00aeef; }
+        .BannerWrap .BannerMain .ButtonWrap .ButtoN:hover {
+          color: #6ec1e4; }
+    .BannerWrap .BannerMain .BannerHeagingTitle {
+      color: #FFFFFF;
+      font-size: 38px;
+      line-height: 1.1em;
+      font-family: "Quicksand", "sans-serif";
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 31px; }
+    .BannerWrap .BannerMain .AppButtonWrap {
+      text-align: center; }
+      .BannerWrap .BannerMain .AppButtonWrap .AppBtn {
+        font-family: "Quicksand", "sans-serif";
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        background-color: #00AEEF;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: #00AEEF;
+        border-radius: 35px 35px 35px 35px;
+        display: inline-block;
+        line-height: 1;
+        font-size: 15px;
+        padding: 12px 24px;
+        text-align: center;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+        margin: 0 7px; }
+        .BannerWrap .BannerMain .AppButtonWrap .AppBtn .AppBrand {
+          margin-right: 5px; }
+        .BannerWrap .BannerMain .AppButtonWrap .AppBtn:hover {
+          background-color: transparent; }

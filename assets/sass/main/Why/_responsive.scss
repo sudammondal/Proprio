@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+    .DemoWrapper {
+        .MobileTab {
+            display: none;
+        }
+    }
+    .WHYWrap {
+        padding-top: 200px;
+        .WHYBanner {
+            text-align: center;
+        }
+    }
+    .DemoWrapper .GridSoftwer  {
+        grid-template-columns: 100%;
+    }
+    .DemoWrapper .GridSoftwer .SoftwerInner .SoftwerTitle .SoftwerHead {
+        font-size: 30px;
+    }
+    .DemoWrapper .GridSoftwer .SoftwerInner .SoftwerTitle .SoftPra {
+        font-size: 14px;
+    }
+    .DemoWrapper .GridSoftwer .SoftwerInner .SoftwerTitle .FREETRIALbtn a {
+        font-size: 14px;
+    }
+    .DemoWrapper .GridSoftwer {
+        margin-bottom: 0;
+    }
+    .DemoWrapper .discoverGrid {
+        grid-template-columns: 100%;
+    }
+    .DemoWrapper .GridSoftwer {
+        padding: 40px 0px;
+    }
+    .DemoWrapper .discoverGrid {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .DemoWrapper .discoverGrid .SoftwerTitle .SoftwerHead {
+        font-size: 30px;
+    }
+    .DemoWrapper .discoverGrid .SoftwerTitle .SoftPra {
+        font-size: 14px;
+    }
+    .DemoWrapper .discoverGrid .discoverImg .DiscIMG {
+        margin-bottom: 15px;
+    }
+    .DemoWrapper .discoverGrid .discoverImg.MT {
+        margin-top: 15px;
+    }
+    .AboutWorkWrappar {
+        margin: 28px 0 120px 0;
+    }
+    .AboutWorkWrappar .AboutHEAD {
+        font-size: 30px;
+    }
+    .AboutWorkWrappar .AbourGrid {
+        grid-template-columns: 100%;
+    }
+    .AboutWorkWrappar .AbourGrid .AboutInner {
+        margin-bottom: 30px;
+    }
+    
+}

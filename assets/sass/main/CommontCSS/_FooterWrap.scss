@@ -3,7 +3,7 @@
     color: #d2d2d2;
     padding-top: 70px;
     .CtmContiner {
-        max-width: 1170px;
+        padding-bottom: 78px;
         .footerGrid {
             display: grid;
             grid-template-columns: 25% 25% 25% 25%;
@@ -96,7 +96,6 @@
         }
     }
     .footerBtm {
-        margin-top: 78px;
         padding: 15px 0;
         background-color: #e1e1e1;
         .footerBtmBar {

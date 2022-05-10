@@ -26,5 +26,15 @@ body {
     p {
         font-family: 'Lato', "sans-serif";
     }
-  
+    .container {
+        padding: 0;
+    }
+    @media (max-width: 425px) {
+        
+        .container {
+            padding:0 15px;
+        }
+        
+       
+    }
 }

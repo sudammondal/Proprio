@@ -1,0 +1,14 @@
+.RatingWrap {
+  padding: 63px 0px 175px 0px; }
+  .RatingWrap .RatingMain {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    width: 100%; }
+    .RatingWrap .RatingMain .RatingHead {
+      color: #00aeef;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 1.1em;
+      margin: 0 auto 20px auto;
+      width: 900px; }

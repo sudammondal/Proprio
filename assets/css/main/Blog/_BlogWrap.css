@@ -1,0 +1,79 @@
+.BlogWrap {
+  padding: 122px 0 10px 0; }
+  .BlogWrap .BlogHead {
+    color: #32327B;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    font-family: "Quicksand", "sans-serif";
+    margin-bottom: 20px;
+    text-transform: capitalize; }
+  .BlogWrap .GridBlog {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+    .BlogWrap .GridBlog .CTMrow .card {
+      border-top: 1px solid #eaeaea;
+      -webkit-transition: all .25s;
+      -o-transition: all .25s;
+      transition: all .25s;
+      border-radius: 0.25rem; }
+      .BlogWrap .GridBlog .CTMrow .card:hover {
+        -webkit-box-shadow: 0 0 30px 0 #00000026;
+        box-shadow: 0 0 30px 0 #00000026; }
+      .BlogWrap .GridBlog .CTMrow .card .card-body {
+        padding: 18px 30px; }
+        .BlogWrap .GridBlog .CTMrow .card .card-body .card-title {
+          font-size: 21px;
+          font-family: "Quicksand", "sans-serif";
+          font-weight: 500;
+          line-height: 1.1;
+          color: #3A3B74;
+          -webkit-transition: all .3s;
+          -o-transition: all .3s;
+          transition: all .3s;
+          cursor: pointer;
+          margin-bottom: 22px; }
+          .BlogWrap .GridBlog .CTMrow .card .card-body .card-title:hover {
+            color: #5c5c5c; }
+        .BlogWrap .GridBlog .CTMrow .card .card-body p {
+          margin-bottom: 22px;
+          line-height: 1.5em;
+          font-size: 14px;
+          color: #777; }
+          .BlogWrap .GridBlog .CTMrow .card .card-body p a {
+            display: inline-block;
+            color: #777; }
+        .BlogWrap .GridBlog .CTMrow .card .card-body .card-text {
+          font-size: 12px;
+          font-weight: 700;
+          text-transform: uppercase;
+          line-height: 1.42;
+          color: #3A3B74;
+          cursor: pointer;
+          margin-bottom: 5px; }
+          .BlogWrap .GridBlog .CTMrow .card .card-body .card-text:hover {
+            color: #5c5c5c; }
+      .BlogWrap .GridBlog .CTMrow .card .card-footer {
+        border-top: 1px solid #eaeaea;
+        background: transparent;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        justify-content: left;
+        padding: 15px; }
+        .BlogWrap .GridBlog .CTMrow .card .card-footer .text-muted {
+          line-height: 1.3em;
+          font-size: 12px;
+          color: #adadad;
+          padding-left: 15px; }

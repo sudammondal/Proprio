@@ -1,0 +1,110 @@
+.PropertyWrapper {
+    .PropertyHeadTitle {
+        margin-top: 130px;
+        text-align: center;
+        .PropertyHead {
+            color: #00aeef;
+            font-size: 35px;
+            line-height: 1;
+            font-weight: 900;
+            font-family: "Quicksand";
+            margin: 0;
+        }
+        .PropertyHeadbtm {
+            color: #00aeef;
+            font-size: 25px;
+            font-weight: 900;
+            color: #515151;
+            font-family: "Quicksand";
+            margin-bottom: 80px;
+        }
+    }
+   
+    .PropertyGrid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+        .PropertyImg {
+            padding: 10px;
+            .PropertyIMG {
+                vertical-align: middle;
+                display: inline-block;
+                max-width: 90%;
+                width: 100%;
+            }
+            .ExIMG {
+                width: 80%;
+            }
+        }
+        .PropertyTitle {
+            padding: 10px;
+            .PropertyHead {
+                font-weight: 900;
+                font-size: 30px;
+                padding: 0;
+                margin: 0;
+                line-height: 1;
+                color: #515151;
+                font-family: "Quicksand";
+                margin-bottom: 20px;
+                
+            }
+            .PropertyPra {
+                font-family: "Quicksand", Sans-serif;
+                font-size: 18px;
+                color: #5c5c5c;
+                line-height: 165%;
+                font-weight: normal;
+                color: #5c5c5c;
+                margin-bottom: 20px;
+                b {
+                    font-weight: 700;
+                }
+            }
+            .PropertyManuItems {
+                margin-bottom: 20px;
+                .PropertyList {
+                    font-family: Quicksand;
+                    color: #555555;
+                    font-weight: 400;
+                    font-size: 14px;
+                    .PropertyListIcons {
+                        
+                        i {
+                            font-size: 14px;
+                            width: 1.25em;
+                        }
+                    }
+                }
+            }
+            .FREETRIALbtn { 
+                a {
+                    font-family: "Quicksand", Sans-serif;
+                    background-color: #333581;
+                    color: #fff;
+                    display: inline-block;
+                    line-height: 1;
+                    font-size: 14px;
+                    padding: 12px 24px;
+                    border-radius: 3px;
+                    fill: #fff;
+                    text-align: center;
+                    transition: all .3s;
+                    border: 1px solid #333581;
+                    &:hover {
+                        color: #5c5c5c;
+                        background-color: transparent;
+                    }
+                    .FreeIcon {
+                       font-weight: 900;
+                    }
+                }
+                
+            }
+        }
+    }
+    
+
+}

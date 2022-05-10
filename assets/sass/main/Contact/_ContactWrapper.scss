@@ -1,0 +1,156 @@
+.ContactWrapper {
+    padding-top:108px;
+    .YourLOcation {
+        iframe {
+            width: 100%;
+            height: 400px;
+        }
+    }
+  .AboutContaint {
+        margin: 58px 0;
+        .AboutHead {
+            text-align: center;
+            color: #00aeef;
+            font-size: 28px;
+            line-height: 1;
+            font-weight: 900;
+            font-family: "Quicksand";
+            margin-bottom: 20px;
+        }
+        .AboutPra {
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #7a7a7a;
+            margin: 0 0 10px;
+        }
+        .aboutPraDat {
+            margin-top: 20px;
+            p {
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 400;
+                color: #7a7a7a;
+                margin: 0;
+            }
+        }
+  }
+  .AboutFromMain {
+        margin: 58px 0;
+        background-color: #f2f2f2;
+        border-radius: 25px;
+        padding: 30px;
+    form {
+        label {
+            font-size: 15px;
+            color: #5c5c5c;
+            font-weight: 600;
+            line-height: 1.4;
+            margin: 0;
+        }
+        input {
+            width: 100%;
+            border-radius: 25px;
+            outline: none;
+            box-shadow: none;
+            border: 1px solid #32327b;
+            background-color: #ffffff;
+            vertical-align: middle;
+            line-height: 1.4;
+            font-size: 15px;
+            min-height: 40px;
+            padding: 5px 16px;
+            margin-bottom: 10px;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 25px;
+            outline: none;
+            box-shadow: none;
+            border: 1px solid #32327b;
+            background-color: #ffffff;
+            vertical-align: middle;
+            line-height: 1.4;
+            font-size: 15px;
+            min-height: 97px;
+            margin-bottom: 10px;
+        }   
+        .AboutBUTTON {
+            margin-bottom: 10px;
+            .AboutButton {
+                font-family: "Quicksand", "sans-serif";
+                fill: #00aeef;
+                line-height: 1;
+                font-size: 15px;
+                background-color: #32327b;
+                color: #ffffff;
+                padding: 12px 24px;
+                border-radius: 50px;
+                transition: all 0.2s linear;
+                display: inline-block;
+                font-weight: 900;
+                &:hover {
+                    background-color: #7a7a7a;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+  }
+  .ContactGrid {
+      padding: 60px 0;
+      display: grid;
+      grid-template-columns: 33.3333337% 33.3333337% 33.3333337%;
+      .ContactItems {
+        text-align: center;
+        padding: 70px;
+        border-right: 1px solid #e2e2e2;
+        transition: all 0.5s ease;
+        cursor: pointer;
+        &:last-child {
+            border: none;
+        }
+        &:hover {
+            background-color:#f2f2f2;
+        }
+          .ContactInner {
+              a {
+                  display: inline-block;
+                .ContactICON {
+                    fill: #00AEEF;
+                    color: #00AEEF;
+                    font-size: 60px;
+                    line-height: 1;
+                    text-align: center;
+                    margin-bottom: 25px;
+
+                }
+              }
+          }
+          .Contacthed {
+            a {
+                font-family: "Quicksand", Sans-serif;
+                font-size: 21px;
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 1.4em;
+                letter-spacing: 1.2px;
+                color: #777777;
+                margin-bottom: 20px;
+            }
+          }
+          .ContactLINK {
+            a {
+                color: #00AEEF;
+                font-family: "Quicksand", Sans-serif;
+                font-size: 17px;
+                font-weight: bold;
+                line-height: 1;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+          }
+      }
+  }
+}

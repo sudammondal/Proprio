@@ -1,19 +1,45 @@
-@import "./main/global";
-@import "./main/Header";
-@import "./main/Banner";
-@import "./main/CardandSlid";
-@import "./main/Rating";
-@import "./main/coundingWrap";
-@import "./main/FreeTrylWrap";
-@import "./main/VedioWrap";
-@import "./main/DISCOVERwrap";
-@import "./main/SarviceWrap";
-@import "./main/SoftwertryWrap";
-@import "./main/NewsWrap";
-@import "./main/PartnerWrap";
-@import "./main/ProdactWrap";
-@import "./main/FooterWrap";
-
+@import "./main/CommontCSS/global";
+@import "./main/CommontCSS/Header";
+@import "./main/CommontCSS/FooterWrap";
+@import "./main/HOME/Banner";
+@import "./main/HOME/CardandSlid";
+@import "./main/HOME/Rating";
+@import "./main/HOME/coundingWrap";
+@import "./main/HOME/FreeTrylWrap";
+@import "./main/HOME/VedioWrap";
+@import "./main/HOME/DISCOVERwrap";
+@import "./main/HOME/SarviceWrap";
+@import "./main/HOME/SoftwertryWrap";
+@import "./main/HOME/NewsWrap";
+@import "./main/HOME/PartnerWrap";
+@import "./main/HOME/ProdactWrap";
+/*============Responsive============*/
+@import "./main/HOME/responsive";
 /*============Responsive============*/
 
-@import "./main/responsive";
+
+@import "./main/Blog/BlogWrap";
+/*============Responsive============*/
+@import "./main/Blog/responsive";
+/*============Responsive============*/
+
+@import "./main/Why/WhyWrapper";
+@import "./main/Why/DemoWrapper";
+@import "./main/Why/AboutWorkWrappar.scss";
+/*============Responsive============*/
+@import "./main/Why/responsive";
+/*============Responsive============*/
+
+@import "./main/Features/FeaturesBanner";
+@import "./main/Features/PropertyWrappar";
+@import "./main/Features/SoftwareManagement";
+/*============Responsive============*/
+@import "./main/Features/responsive";
+/*============Responsive============*/
+
+@import "./main/Contact/ContactWrapper";
+/*============Responsive============*/
+@import "./main/Contact/responsive";
+/*============Responsive============*/
+
+@import "./main/NotFoundPage/NotFoundWrap";

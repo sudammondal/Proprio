@@ -1,0 +1,147 @@
+.NotFoundWroa {
+    padding-top: 168px;
+    .NotfoundMain {
+        .BlogHead {
+            color: #32327B;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 1;
+            text-align: center;
+            font-family: "Quicksand", "sans-serif";
+            text-transform: capitalize;
+            padding-bottom: 60px;
+            border-bottom: 1px solid #e6e6e6;
+            margin: 0;
+        }
+        .SearchBos {
+            padding: 40px 0;
+            display: flow-root;
+            .NotFoundPra {
+                color: #5c5c5c;
+                font-size: 15px;
+                line-height: 165%;
+            }
+            .FromNotfount {
+                input[type=text] {
+                    padding: 10px;
+                    font-size: 17px;
+                    border: 1px solid grey;
+                    float: left;
+                    max-width: 68%;
+                    width: 100%;
+                    background: #ffffff;
+                    border-top-left-radius: 50px !important;
+                    border-bottom-left-radius: 50px !important;
+                    border-bottom-right-radius: 0 !important;
+                    border-top-right-radius: 0 !important;
+                    padding: 6px 20px 6px 25px;
+                    height: 50px;
+                    border-right: 0 !important;
+                    border: 1px solid #e2e2e2;
+                    outline: none;
+                    font-size: 14px;
+                    line-height: 1.42857143;
+                    color: #555;
+                    
+                }
+              
+                button {
+                    float: left;
+                    max-width: 32%;
+                    width: 100%;
+                    max-width: 90px;
+                    height: 50px;
+                    font-size: 15px;
+                    font-weight: 600;
+                    color: #fff;
+                    background-color: #045089;
+                    border: 0 ;
+                    border-left: none;
+                    cursor: pointer;
+                    padding: 6px 20px 6px 25px;
+                    height: 50px;
+                    border-right: 0 !important;
+                    border: 1px solid #e2e2e2;
+                    outline: none;
+                    font-size: 14px;
+                    line-height: 1.42857143;
+                    border-top-left-radius: 0 !important;
+                    border-bottom-left-radius: 0 !important;
+                    border-bottom-right-radius: 50px !important;
+                    border-top-right-radius: 50px !important;
+                    transition: all 0.5s ease;
+                    text-align: center;
+                    &:hover {
+                        background-color: #1d6194;
+                      }
+                  }
+              }
+        }
+      
+    }
+}
+@media (max-width: 2560px) {
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount input[type=text] {
+        max-width: 92%;
+        width: 100%;
+    }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
+        max-width: 8%;
+        width: 100%;
+    }
+    
+}
+@media (max-width: 1040px) {
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount input[type=text] {
+        max-width: 90%;
+        width: 100%;
+    }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
+        max-width: 10%;
+        width: 100%;
+    }
+    
+}
+@media (max-width: 768px) {
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount input[type=text] {
+        max-width: 86%;
+        width: 100%;
+    }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
+        max-width: 14%;
+        width: 100%;
+    }
+    
+}
+@media (max-width: 425px) {
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount input[type=text] {
+        max-width: 77%;
+        width: 100%;
+    }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
+        max-width: 23%;
+        width: 100%;
+    }
+    
+}
+@media (max-width: 375px) {
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount input[type=text] {
+        max-width: 74%;
+        width: 100%;
+    }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
+        max-width: 26%;
+        width: 100%;
+    }
+    
+}
+@media (max-width: 320px) {
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount input[type=text] {
+        max-width: 68%;
+        width: 100%;
+    }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
+        max-width: 32%;
+        width: 100%;
+    }
+}
