@@ -17,7 +17,6 @@
 @import "./main/HOME/responsive";
 /*============Responsive============*/
 
-
 @import "./main/Blog/BlogWrap";
 /*============Responsive============*/
 @import "./main/Blog/responsive";
@@ -42,6 +41,16 @@
 @import "./main/Contact/responsive";
 /*============Responsive============*/
 
+/*============NotFoundPage============*/
 @import "./main/NotFoundPage/NotFoundWrap";
+/*============NotFoundPage============*/
 
-@import "./main/FreeTrial/FreeTrialWrap.scss";
+/*============FreeTrial============*/
+@import "./main/FreeTrial/FreeTrialWrap";
+/*============FreeTrial============*/
+
+/*============FreeDemo============*/
+@import "./main/FreeDemo/FreeDemoWrappar";
+/*============responsive============*/
+@import "./main/FreeDemo/responsive";
+/*============responsive============*/

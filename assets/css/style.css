@@ -2434,6 +2434,7 @@ ul.slick-dots {
   }
 }
 /*============Responsive============*/
+/*============NotFoundPage============*/
 .NotFoundWroa {
   padding-top: 168px;
 }
@@ -2578,6 +2579,8 @@ ul.slick-dots {
     width: 100%;
   }
 }
+/*============NotFoundPage============*/
+/*============FreeTrial============*/
 .FreeTrialWrap {
   height: 100vh;
   width: 100%;
@@ -2760,3 +2763,396 @@ ul.slick-dots {
   background: #03a9f4;
   margin: 0 0 0 4px;
 }
+
+/*============FreeTrial============*/
+/*============FreeDemo============*/
+.FreeDemoWrap {
+  padding: 177px 0 40px 0;
+  background-color: rgba(65, 105, 225, 0.63);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #b4b4b4;
+  background-image: url(../image/back-home.jpg);
+  background-repeat: repeat-x;
+  background-position: bottom left;
+  background-size: cover;
+}
+.FreeDemoWrap .FreeDemoContaint {
+  width: 802px;
+  background: #fff;
+  color: #4e4e50;
+  border-radius: 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
+  position: relative;
+}
+.FreeDemoWrap .FreeDemoContaint::before {
+  contain: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 1px;
+  background-color: #30337b1a;
+}
+.FreeDemoWrap .FreeDemoContaint .Calendly {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.FreeDemoWrap .FreeDemoContaint .Calendly a {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  z-index: 1;
+  width: 105px;
+  height: 105px;
+  overflow: hidden;
+  text-decoration: none;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  pointer-events: none;
+  will-change: transform;
+}
+.FreeDemoWrap .FreeDemoContaint .Calendly a::before {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #505960;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  content: "";
+  top: 0;
+  left: 0;
+}
+.FreeDemoWrap .FreeDemoContaint .Calendly a::after {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #505960;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  content: "";
+  bottom: 0;
+  right: 0;
+}
+.FreeDemoWrap .FreeDemoContaint .Calendly a:hover {
+  -webkit-transform: scale(1.04);
+      -ms-transform: scale(1.04);
+          transform: scale(1.04);
+}
+.FreeDemoWrap .FreeDemoContaint .Calendly a:hover::before {
+  background-color: #000;
+}
+.FreeDemoWrap .FreeDemoContaint .Calendly a:hover::after {
+  background-color: #000;
+}
+.FreeDemoWrap .FreeDemoContaint .Calendly a .CalendlyTitl {
+  position: relative;
+  top: 21px;
+  left: -11px;
+  z-index: 1;
+  display: block;
+  width: 160px;
+  padding: 9px 0 6px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  background-color: #505960;
+  -webkit-box-shadow: 0 2px 4px 0 #00000033;
+          box-shadow: 0 2px 4px 0 #00000033;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  pointer-events: auto;
+}
+.FreeDemoWrap .FreeDemoContaint .Calendly a .CalendlyTitl:hover {
+  background-color: #40474c;
+}
+.FreeDemoWrap .FreeDemoContaint .Calendly a .CalendlyTitl .Claenpr {
+  margin-left: -7px;
+  color: #f2f2f2;
+  font-size: 8px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+.FreeDemoWrap .FreeDemoContaint .Calendly a .CalendlyTitl .ClaenHed {
+  margin-left: -7px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoItem {
+  padding: 30px;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoTitle {
+  color: #30337b99;
+  margin: 0 0 3px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoHead {
+  color: #30337b;
+  margin: 0;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoHead.FontSiz {
+  font-size: 20px;
+  padding-right: 120px;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoItem .UpdatTime {
+  margin-bottom: 20px;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoItem .UpdatTime span {
+  color: #30337b99;
+  margin-top: -1px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoItem .UpdatTime span i {
+  line-height: 1;
+  font-size: 20px;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoItem .Demopra {
+  color: #30337b;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoItem .Demopra a {
+  color: #30337b;
+  -webkit-text-decoration: revert;
+          text-decoration: revert;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .month {
+  padding: 0 0 30px 0;
+  width: 100%;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .month .TopTitel {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .month .TopTitel p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #30337b;
+  margin: 0;
+  padding: 0;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .month .TopTitel .ArrowIcon span {
+  color: #30337b;
+  font-size: 20px;
+  letter-spacing: 3px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .month .TopTitel .ArrowIcon span::before {
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: -16px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 100%;
+  z-index: -1;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .month .TopTitel .ArrowIcon span:hover:before {
+  background-color: #ddd;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .month .TopTitel .ArrowIcon span.prev {
+  float: initial;
+  margin: 0 50px;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .month .TopTitel .ArrowIcon span.prev i {
+  font-weight: 900;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .month .TopTitel .ArrowIcon span.next {
+  float: initial;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .month .TopTitel .ArrowIcon span.next i {
+  font-weight: 900;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays {
+  margin: 0;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li {
+  display: inline-block;
+  width: 12.6%;
+  color: #666;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  margin: 0 2px;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .days {
+  padding: 10px 0;
+  margin: 0;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 12.6%;
+  text-align: center;
+  margin-bottom: 26px;
+  font-size: 16px;
+  color: #777;
+  margin-left: 2px;
+  position: relative;
+  cursor: pointer;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .days li span {
+  padding: 7px 8px;
+  background-color: #30327b11;
+  border-radius: 100px;
+  color: #30337b;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .days li span.active {
+  padding: 7px 8px;
+  background-color: #30337b;
+  border-radius: 100px;
+  color: #fff;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .days li span.active:hover {
+  color: #fff;
+  background-color: #30337b;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .days li span:hover {
+  background-color: #30337b26;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .Asiewrap .dropup button {
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100%;
+  padding: 6px 9px 5px;
+  font-size: 14px;
+  border-radius: 18px;
+  color: #30337b;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .Asiewrap .dropup button:hover {
+  background-color: #0000001a;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .Asiewrap .dropup button span {
+  margin-right: 10px;
+}
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .Asiewrap .dropup button .dropdown-menu {
+  z-index: 777 !important;
+}
+
+/*============responsive============*/
+@media screen and (max-width: 1024px) {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li, .days li {
+    width: 12.6%;
+  }
+}
+@media (max-width: 768px) {
+  .FreeDemoWrap .FreeDemoContaint {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoItem {
+    padding: 30px 170px;
+  }
+
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoTitle {
+    text-align: center;
+  }
+
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoHead {
+    text-align: center;
+  }
+
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoHead.FontSiz {
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 720px) {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander.weekdays li, .days li {
+    width: 13.1%;
+  }
+}
+@media (max-width: 425px) {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoItem {
+    padding: 30px 30px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li, .days li {
+    width: 12.5%;
+  }
+
+  .days li .active {
+    padding: 2px;
+  }
+}
+@media screen and (max-width: 290px) {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li, .days li {
+    width: 12.2%;
+  }
+}
+/*============responsive============*/
