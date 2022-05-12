@@ -3188,7 +3188,6 @@ ul.slick-dots {
   border-radius: 3px;
 }
 .LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .LoginFlax {
-  margin-bottom: 10px;
   position: relative;
 }
 .LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .LoginFlax .LoginLOGO .logo img {
@@ -3224,7 +3223,7 @@ ul.slick-dots {
           justify-content: space-between;
 }
 .LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .paddingTop .inputLabel span a {
-  color: 390cf;
+  color: #0390cf;
 }
 .LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .paddingTop .LoginLangus input {
   border: 0;
@@ -3454,7 +3453,7 @@ ul.slick-dots {
           justify-content: space-between;
 }
 .ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint .ForgetMailInner .paddingTop .inputLabel span a {
-  color: 390cf;
+  color: #0390cf;
 }
 .ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint .ForgetMailInner .paddingTop .ForgetMailLangus input {
   border: 0;
