@@ -46,13 +46,11 @@ body .container {
           box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
   z-index: 888;
   -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 .Header.headerFixed .navbar {
   padding: 0;
   -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 .Header.headerFixed .navbar .CtmCont .navbar-brand img {
@@ -68,7 +66,6 @@ body .container {
 .Header .navbar {
   padding: 18.5px 0;
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 .Header .navbar .CtmCont {
@@ -78,7 +75,6 @@ body .container {
   max-width: 170px;
   width: 100%;
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 .Header .navbar .CtmCont .NavCollap .NavberNav {
@@ -96,7 +92,6 @@ body .container {
   padding: 15px 0;
   margin: 0 16px;
   -webkit-transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
   position: relative;
 }
@@ -110,7 +105,6 @@ body .container {
   background-color: #3A3B74;
   opacity: 0;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link.active, .Header .navbar .CtmCont .NavCollap .NavberNav .nav-item .nav-link:hover {
@@ -146,7 +140,6 @@ body .container {
   padding: 6px 18px;
   border-radius: 50px;
   -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   margin: 0px 20px 0px 0px;
 }
@@ -324,7 +317,6 @@ body .container {
   fill: #8a8a8a;
   color: #a3a3a3;
   -webkit-transition: all 300ms;
-  -o-transition: all 300ms;
   transition: all 300ms;
 }
 .footerWrap .footerBtm .footerBtmBar .Standis:hover {
@@ -337,7 +329,6 @@ body .container {
   right: 18px;
   z-index: 1;
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
   opacity: 0;
 }
@@ -411,7 +402,6 @@ body .container {
   text-transform: uppercase;
   text-align: center;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   font-weight: 600;
   letter-spacing: -0.2px;
@@ -455,7 +445,6 @@ body .container {
   padding: 12px 24px;
   text-align: center;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   margin: 0 7px;
 }
@@ -580,7 +569,6 @@ body .container {
   width: 40px;
   height: 40px;
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
   opacity: 0;
   visibility: hidden;
@@ -590,7 +578,6 @@ body .container {
   padding: 10px;
   font-size: 20px;
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
   color: #32327b;
 }
@@ -711,7 +698,6 @@ ul.slick-dots {
   text-transform: uppercase;
   text-align: center;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   font-weight: 600;
   letter-spacing: -0.2px;
@@ -806,7 +792,6 @@ ul.slick-dots {
   font-size: 15px;
   padding: 12px 24px;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .DISCOVERwrap .discoverGrid .discoverInner .discoverElament .DiscoverButtonMain .discoverButton:hover {
@@ -833,7 +818,6 @@ ul.slick-dots {
   padding: 62px 0;
   background-color: transparent;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#00aeef), to(#3fc5ff));
-  background-image: -o-linear-gradient(top, #00aeef 0%, #3fc5ff 100%);
   background-image: linear-gradient(180deg, #00aeef 0%, #3fc5ff 100%);
 }
 .ServiceWrap .SERVICEHead {
@@ -905,7 +889,6 @@ ul.slick-dots {
   padding: 12px 24px;
   text-align: center;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -938,7 +921,6 @@ ul.slick-dots {
   font-size: 17px;
   text-transform: uppercase;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   font-weight: 600;
   letter-spacing: -0.2px;
@@ -977,7 +959,6 @@ ul.slick-dots {
   line-height: 1.1;
   color: #3A3B74;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   cursor: pointer;
   margin-bottom: 16px;
@@ -1497,7 +1478,6 @@ ul.slick-dots {
 .BlogWrap .GridBlog .CTMrow .card {
   border-top: 1px solid #eaeaea;
   -webkit-transition: all 0.25s;
-  -o-transition: all 0.25s;
   transition: all 0.25s;
   border-radius: 0.25rem;
   height: 100%;
@@ -1518,7 +1498,6 @@ ul.slick-dots {
   line-height: 1.1;
   color: #3A3B74;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   cursor: pointer;
   margin-bottom: 22px;
@@ -1637,7 +1616,6 @@ ul.slick-dots {
   -webkit-box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 #424d5680, 0 2px 0 #aeb5bb, 0 20px 50px -25px #00000080;
           box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 #424d5680, 0 2px 0 #aeb5bb, 0 20px 50px -25px #00000080;
   -webkit-transform: rotate(345deg);
-      -ms-transform: rotate(345deg);
           transform: rotate(345deg);
   right: -149px;
   top: 47px;
@@ -1651,7 +1629,6 @@ ul.slick-dots {
   -webkit-box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 #424d5680, 0 2px 0 #aeb5bb, 0 20px 50px -25px #00000080;
           box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 #424d5680, 0 2px 0 #aeb5bb, 0 20px 50px -25px #00000080;
   -webkit-transform: rotate(345deg);
-      -ms-transform: rotate(345deg);
           transform: rotate(345deg);
   width: 225px;
 }
@@ -1663,7 +1640,6 @@ ul.slick-dots {
   -webkit-box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 #424d5680, 0 2px 0 #aeb5bb, 0 20px 50px -25px #00000080;
           box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 #424d5680, 0 2px 0 #aeb5bb, 0 20px 50px -25px #00000080;
   -webkit-transform: rotate(345deg);
-      -ms-transform: rotate(345deg);
           transform: rotate(345deg);
   width: 225px;
 }
@@ -1722,7 +1698,6 @@ ul.slick-dots {
   fill: #fff;
   text-align: center;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid #333581;
 }
@@ -1803,7 +1778,6 @@ ul.slick-dots {
   fill: #fff;
   text-align: center;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid #333581;
 }
@@ -2107,7 +2081,6 @@ ul.slick-dots {
   fill: #fff;
   text-align: center;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid #333581;
 }
@@ -2177,7 +2150,6 @@ ul.slick-dots {
   padding: 12px 24px;
   border-radius: 50px;
   -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   display: inline-block;
   font-weight: 900;
@@ -2244,7 +2216,6 @@ ul.slick-dots {
     font-size: 20px;
   }
 }
-/*============Responsive============*/
 .ContactWrapper {
   padding-top: 108px;
 }
@@ -2337,7 +2308,6 @@ ul.slick-dots {
   padding: 12px 24px;
   border-radius: 50px;
   -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   display: inline-block;
   font-weight: 900;
@@ -2358,7 +2328,6 @@ ul.slick-dots {
   padding: 70px;
   border-right: 1px solid #e2e2e2;
   -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   cursor: pointer;
 }
@@ -2505,7 +2474,6 @@ ul.slick-dots {
   border-bottom-right-radius: 50px !important;
   border-top-right-radius: 50px !important;
   -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   text-align: center;
 }
@@ -2579,7 +2547,7 @@ ul.slick-dots {
     width: 100%;
   }
 }
-/*============NotFoundPage============*/
+/*============responsive============*/
 /*============FreeTrial============*/
 .FreeTrialWrap {
   height: 100vh;
@@ -2819,7 +2787,6 @@ ul.slick-dots {
   overflow: hidden;
   text-decoration: none;
   -webkit-transition: all 0.1s ease-in;
-  -o-transition: all 0.1s ease-in;
   transition: all 0.1s ease-in;
   pointer-events: none;
   will-change: transform;
@@ -2830,7 +2797,6 @@ ul.slick-dots {
   height: 6px;
   background-color: #505960;
   -webkit-transition: all 0.1s ease-in;
-  -o-transition: all 0.1s ease-in;
   transition: all 0.1s ease-in;
   content: "";
   top: 0;
@@ -2842,7 +2808,6 @@ ul.slick-dots {
   height: 6px;
   background-color: #505960;
   -webkit-transition: all 0.1s ease-in;
-  -o-transition: all 0.1s ease-in;
   transition: all 0.1s ease-in;
   content: "";
   bottom: 0;
@@ -2850,7 +2815,6 @@ ul.slick-dots {
 }
 .FreeDemoWrap .FreeDemoContaint .Calendly a:hover {
   -webkit-transform: scale(1.04);
-      -ms-transform: scale(1.04);
           transform: scale(1.04);
 }
 .FreeDemoWrap .FreeDemoContaint .Calendly a:hover::before {
@@ -2876,10 +2840,8 @@ ul.slick-dots {
   -webkit-box-shadow: 0 2px 4px 0 #00000033;
           box-shadow: 0 2px 4px 0 #00000033;
   -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
           transform: rotate(45deg);
   -webkit-transition: all 0.1s ease-in;
-  -o-transition: all 0.1s ease-in;
   transition: all 0.1s ease-in;
   pointer-events: auto;
 }
@@ -2997,7 +2959,6 @@ ul.slick-dots {
   border-radius: 100%;
   z-index: -1;
   -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .month .TopTitel .ArrowIcon span:hover:before {
@@ -3062,7 +3023,6 @@ ul.slick-dots {
   border-radius: 100px;
   color: #30337b;
   -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .days li span.active {
@@ -3089,7 +3049,6 @@ ul.slick-dots {
   border-radius: 18px;
   color: #30337b;
   -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .Asiewrap .dropup button:hover {
@@ -3156,3 +3115,398 @@ ul.slick-dots {
   }
 }
 /*============responsive============*/
+/*============Login============*/
+.LoginlWrap {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(65, 105, 225, 0.63);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #b4b4b4;
+  background-image: url(../image/back-home.jpg);
+  background-repeat: repeat-x;
+  background-position: bottom left;
+  background-size: cover;
+  position: relative;
+}
+.LoginlWrap .LoginLangusENG {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  width: 142px;
+  border-radius: 3px;
+}
+.LoginlWrap .LoginLangusENG select {
+  border: 0;
+  border-bottom: 1px solid #0390cf;
+  height: 30px;
+  min-height: 30px;
+  width: 100%;
+  margin: 0;
+  padding: 5px 4px 4px 4px;
+  background: #f9fdff;
+  color: #4e4e50;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 300;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  vertical-align: middle;
+  outline: none;
+}
+.LoginlWrap .LoginContaintWrapper .ProdactTo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding: 0 14px;
+}
+.LoginlWrap .LoginContaintWrapper .ProdactTo .ProdactTitle a {
+  color: #f5f5f5;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 5px 4px;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint {
+  width: 322px;
+  background: #fff;
+  margin: 6px;
+  padding: 22px 30px 22px 30px;
+  color: #4e4e50;
+  border-radius: 3px;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .LoginFlax {
+  margin-bottom: 10px;
+  position: relative;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .LoginFlax .LoginLOGO .logo img {
+  max-width: 250px;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .LoginFlax .LoginQustion {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .LoginFlax .LoginQustion a {
+  display: inline-block;
+  margin-left: -17px;
+  margin-top: 5px;
+  color: #4e4e50;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .paddingTop {
+  margin-bottom: 10px;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .paddingTop .inputLabel {
+  line-height: 29px;
+  font-size: 14px;
+  color: #808080;
+  padding: 0 5px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .paddingTop .inputLabel span a {
+  color: 390cf;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .paddingTop .LoginLangus input {
+  border: 0;
+  border-bottom: 1px solid #0390cf;
+  height: 30px;
+  min-height: 30px;
+  width: 100%;
+  margin: 0;
+  padding: 5px 4px 4px 4px;
+  background: #f9fdff;
+  color: #4e4e50;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 300;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  vertical-align: middle;
+  outline: none;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .ChackBoxAria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5px;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .ChackBoxAria input {
+  display: none;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .ChackBoxAria input[type=checkbox]:checked + label:before {
+  background: #03a9f4;
+  border: 1px solid #03a9f4;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .ChackBoxAria input[type=checkbox] + label:before {
+  border: 1px solid #0390cf;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .ChackBoxAria input[type=checkbox]:checked + label:before {
+  content: "✓";
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  background: #15beff;
+  border: 1px solid #15beff;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .ChackBoxAria label {
+  color: #808080;
+  font-size: 14px;
+  line-height: 28px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  padding: 2px 2px 2px 25px;
+  min-height: 28px;
+  min-width: 20px;
+  position: relative;
+  vertical-align: middle;
+  outline: none !important;
+  font-family: "Roboto", Helvetica, Tahoma, Sans Serif;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .ChackBoxAria label::before {
+  content: "";
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  top: 5px;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  border-radius: 3px;
+  background: #fff;
+  border: 1px solid #15beff;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .LoginBUTTON .LoginBtn {
+  color: #fff;
+  background: #03a9f4;
+  padding: 9px;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 16px;
+  outline: 0;
+  cursor: pointer;
+  white-space: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2px;
+  border: 0 solid transparent;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .LoginBUTTON .LoginBtn:hover {
+  background: #15beff;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .LoginBUTTON .LoginBtnTwo {
+  background: transparent;
+  color: #03a9f4;
+  padding: 9px;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 16px;
+  outline: 0;
+  cursor: pointer;
+  white-space: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2px;
+  border: 0 solid transparent;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 100%;
+}
+.LoginlWrap .LoginContaintWrapper .LoginContaint .LoginInner .LoginBUTTON .LoginBtnTwo:hover {
+  color: #15beff;
+}
+
+/*============Forgetmail============*/
+.ForgetMailWrap {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(65, 105, 225, 0.63);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #b4b4b4;
+  background-image: url(../image/back-home.jpg);
+  background-repeat: repeat-x;
+  background-position: bottom left;
+  background-size: cover;
+  position: relative;
+}
+.ForgetMailWrap .ForgetMailLangusENG {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  width: 142px;
+  border-radius: 3px;
+}
+.ForgetMailWrap .ForgetMailLangusENG select {
+  border: 0;
+  border-bottom: 1px solid #0390cf;
+  height: 30px;
+  min-height: 30px;
+  width: 100%;
+  margin: 0;
+  padding: 5px 4px 4px 4px;
+  background: #f9fdff;
+  color: #4e4e50;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 300;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  vertical-align: middle;
+  outline: none;
+}
+.ForgetMailWrap .ForgetMailContaintWrapper .ProdactTo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding: 0 14px;
+}
+.ForgetMailWrap .ForgetMailContaintWrapper .ProdactTo .ProdactTitle a {
+  color: #f5f5f5;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 5px 4px;
+}
+.ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint {
+  width: 322px;
+  background: #fff;
+  margin: 6px;
+  padding: 30px;
+  color: #4e4e50;
+  border-radius: 3px;
+}
+.ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint .ForgetMailInner .ForgetMailFlax {
+  position: relative;
+}
+.ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint .ForgetMailInner .ForgetMailFlax .ForgetMailLOGO .logo img {
+  max-width: 250px;
+}
+.ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint .ForgetMailInner .ForgetMailFlax .ForgetMailQustion {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+.ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint .ForgetMailInner .ForgetMailFlax .ForgetMailQustion a {
+  display: inline-block;
+  margin-left: -17px;
+  margin-top: 5px;
+  color: #4e4e50;
+}
+.ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint .ForgetMailInner .paddingTop .inputLabel {
+  line-height: 29px;
+  font-size: 14px;
+  color: #808080;
+  padding: 0 5px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint .ForgetMailInner .paddingTop .inputLabel span a {
+  color: 390cf;
+}
+.ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint .ForgetMailInner .paddingTop .ForgetMailLangus input {
+  border: 0;
+  border-bottom: 1px solid #0390cf;
+  height: 30px;
+  min-height: 30px;
+  width: 100%;
+  margin: 0;
+  padding: 5px 4px 4px 4px;
+  background: #f9fdff;
+  color: #4e4e50;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 300;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  vertical-align: middle;
+  outline: none;
+}
+.ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint .ForgetMailInner .ForgetMailBUTTON {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 18px;
+}
+.ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint .ForgetMailInner .ForgetMailBUTTON .ForgetMailBtn {
+  color: #fff;
+  background: #89a7cb;
+  padding: 9px;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 16px;
+  outline: 0;
+  cursor: pointer;
+  white-space: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2px;
+  border: 0 solid transparent;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 300;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 100%;
+  margin: 0 4px 0 0;
+}
+.ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint .ForgetMailInner .ForgetMailBUTTON .ForgetMailBtn:hover {
+  color: #fff;
+  background: #a9c1dd;
+}
+.ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint .ForgetMailInner .ForgetMailBUTTON .ForgetMailBtnTwo {
+  background: #03a9f4;
+  margin: 0 0 0 4px;
+}

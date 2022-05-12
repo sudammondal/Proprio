@@ -24,7 +24,7 @@
 
 @import "./main/Why/WhyWrapper";
 @import "./main/Why/DemoWrapper";
-@import "./main/Why/AboutWorkWrappar.scss";
+@import "./main/Why/AboutWorkWrappar";
 /*============Responsive============*/
 @import "./main/Why/responsive";
 /*============Responsive============*/
@@ -34,8 +34,8 @@
 @import "./main/Features/SoftwareManagement";
 /*============Responsive============*/
 @import "./main/Features/responsive";
-/*============Responsive============*/
 
+// /*============Responsive============*/
 @import "./main/Contact/ContactWrapper";
 /*============Responsive============*/
 @import "./main/Contact/responsive";
@@ -43,7 +43,9 @@
 
 /*============NotFoundPage============*/
 @import "./main/NotFoundPage/NotFoundWrap";
-/*============NotFoundPage============*/
+// /*============NotFoundPage============*/
+@import "./main/NotFoundPage/responsive";
+/*============responsive============*/
 
 /*============FreeTrial============*/
 @import "./main/FreeTrial/FreeTrialWrap";
@@ -54,3 +56,9 @@
 /*============responsive============*/
 @import "./main/FreeDemo/responsive";
 /*============responsive============*/
+
+/*============Login============*/
+@import "./main/LogIN/LoginWrap";
+
+/*============Forgetmail============*/
+@import "./main/ForgetMail/ForgetMailWrap";
