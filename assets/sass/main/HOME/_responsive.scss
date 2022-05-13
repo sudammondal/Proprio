@@ -299,6 +299,9 @@
     .navbar-brand {
         margin-left: 10px;
     }
+    .BannerWrap {
+        padding: 132px 0 100px;
+    }
     .CardANDslidWrap {
         .CtmCol {
             .CardMain {
@@ -465,6 +468,15 @@
                 }
             }
             
+        }
+    }
+    .CardANDslidWrap {
+            .CtmCol {
+                .CardMain {
+                &.ctmMargn2 {
+                    margin-top: 0px;
+                }
+            }
         }
     }
     .PartnerWrap {

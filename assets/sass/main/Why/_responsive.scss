@@ -1,13 +1,48 @@
+@media (max-width: 1960px) {
+    .DemoWrapper .MobileTab .WWimgss {
+        right: -27px;
+        top: 75px;
+    }
+    .DemoWrapper .MobileTab .wwwim {
+        right: 139px;
+        top: 447px;
+    }
+    .DemoWrapper .MobileTab .mobilIMG {
+        right: -120px;
+        top: 379px;
+    }
+}
+@media (max-width: 1400px) {
+    .DemoWrapper .MobileTab .WWimgss {
+        right: -27px;
+        top: 47px;
+    }
+    .DemoWrapper .MobileTab .wwwim {
+        right: 13px;
+        top: 430px;
+    }
+    .DemoWrapper .MobileTab .mobilIMG {
+        right: -250px;
+        top: 362px;
+    }
+}
+
 @media (max-width: 768px) {
+   
     .DemoWrapper {
         .MobileTab {
             display: none;
+        } 
+        .demoSVG {
+            .DemoSVG {
+                display: none;
+            }
         }
     }
     .WHYWrap {
         padding-top: 200px;
         .WHYBanner {
-            text-align: center;
+            text-align: left;
         }
     }
     .DemoWrapper .GridSoftwer  {
@@ -61,3 +96,12 @@
     }
     
 }
+@media (max-width: 768px) {
+    .WHYWrap {
+        padding-top: 200px;
+        .WHYBanner {
+            text-align: center;
+        }
+    }
+
+ }

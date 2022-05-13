@@ -1,20 +1,7 @@
-@media (max-width: 1180px) {
-  
-    
-}
-@media (max-width: 1024px) {
-   
-}
-@media (max-width: 920px) {
-   
-}
 
 @media (max-width: 768px) {
     .ContactWrapper {
         padding-top: 100px;
-    }
-    .row {
-        flex-direction: column-reverse;
     }
     .ContactWrapper .AboutContaint {
         margin: 0px 0;
@@ -31,20 +18,9 @@
         
     }
 }
-@media (max-width: 720px) {
-  
-}
-@media (max-width: 570px) {
-   
-}
-@media (max-width: 540px) {
-   
-}
+
 @media (max-width: 425px) {
     .ContactWrapper .ContactGrid .ContactItems .ContactLINK a {
         font-size: 15px;
     }
-}
-@media (max-width: 320px) {
-  
 }

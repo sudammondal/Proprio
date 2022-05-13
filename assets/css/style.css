@@ -368,7 +368,7 @@ body .container {
 
 .BannerWrap {
   padding: 206px 0 109px 0;
-  background-color: #b4b4b4;
+  background-color: #303076;
   background-image: url(../image/back-home.jpg);
   background-repeat: repeat-x;
   background-position: bottom center;
@@ -631,7 +631,7 @@ ul.slick-dots {
   font-weight: 600;
   line-height: 1.1em;
   margin: 0 auto 20px auto;
-  width: 900px;
+  max-width: 900px;
 }
 
 .coundingWrap {
@@ -1315,6 +1315,10 @@ ul.slick-dots {
     margin-left: 10px;
   }
 
+  .BannerWrap {
+    padding: 132px 0 100px;
+  }
+
   .CardANDslidWrap .CtmCol .CardMain {
     margin-top: 0px;
   }
@@ -1435,6 +1439,10 @@ ul.slick-dots {
   }
   .ServiceWrap .SarviceCTM .serviceContaine .sarviceImg .sarviceIMG {
     font-size: 36px;
+  }
+
+  .CardANDslidWrap .CtmCol .CardMain.ctmMargn2 {
+    margin-top: 0px;
   }
 
   .PartnerWrap .BrandGrid .BrandIMgMain {
@@ -1620,14 +1628,14 @@ ul.slick-dots {
           box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 #424d5680, 0 2px 0 #aeb5bb, 0 20px 50px -25px #00000080;
   -webkit-transform: rotate(345deg);
           transform: rotate(345deg);
-  right: -149px;
-  top: 47px;
+  right: 169px;
+  top: 75px;
   position: absolute;
 }
 .DemoWrapper .MobileTab .wwwim {
   position: absolute;
-  right: 13px;
-  top: 430px;
+  right: 336px;
+  top: 457px;
   border-radius: 38px;
   -webkit-box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 #424d5680, 0 2px 0 #aeb5bb, 0 20px 50px -25px #00000080;
           box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 #424d5680, 0 2px 0 #aeb5bb, 0 20px 50px -25px #00000080;
@@ -1637,8 +1645,8 @@ ul.slick-dots {
 }
 .DemoWrapper .MobileTab .mobilIMG {
   position: absolute;
-  right: -250px;
-  top: 362px;
+  right: 77px;
+  top: 389px;
   border-radius: 38px;
   -webkit-box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 #424d5680, 0 2px 0 #aeb5bb, 0 20px 50px -25px #00000080;
           box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 #424d5680, 0 2px 0 #aeb5bb, 0 20px 50px -25px #00000080;
@@ -1852,8 +1860,43 @@ ul.slick-dots {
 }
 
 /*============Responsive============*/
+@media (max-width: 1960px) {
+  .DemoWrapper .MobileTab .WWimgss {
+    right: -27px;
+    top: 75px;
+  }
+
+  .DemoWrapper .MobileTab .wwwim {
+    right: 139px;
+    top: 447px;
+  }
+
+  .DemoWrapper .MobileTab .mobilIMG {
+    right: -120px;
+    top: 379px;
+  }
+}
+@media (max-width: 1400px) {
+  .DemoWrapper .MobileTab .WWimgss {
+    right: -27px;
+    top: 47px;
+  }
+
+  .DemoWrapper .MobileTab .wwwim {
+    right: 13px;
+    top: 430px;
+  }
+
+  .DemoWrapper .MobileTab .mobilIMG {
+    right: -250px;
+    top: 362px;
+  }
+}
 @media (max-width: 768px) {
   .DemoWrapper .MobileTab {
+    display: none;
+  }
+  .DemoWrapper .demoSVG .DemoSVG {
     display: none;
   }
 
@@ -1861,7 +1904,7 @@ ul.slick-dots {
     padding-top: 200px;
   }
   .WHYWrap .WHYBanner {
-    text-align: center;
+    text-align: left;
   }
 
   .DemoWrapper .GridSoftwer {
@@ -1930,6 +1973,14 @@ ul.slick-dots {
 
   .AboutWorkWrappar .AbourGrid .AboutInner {
     margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .WHYWrap {
+    padding-top: 200px;
+  }
+  .WHYWrap .WHYBanner {
+    text-align: center;
   }
 }
 /*============Responsive============*/
@@ -2166,6 +2217,13 @@ ul.slick-dots {
 }
 
 /*============Responsive============*/
+@media (max-width: 1024px) {
+  .FeaturesWrap .FeaturesBannerRight .FeaturesIMGWrap {
+    right: -30px;
+    max-width: 500px;
+    top: -132px;
+  }
+}
 @media (max-width: 768px) {
   .FeaturesWrap .FeaturesBannerRight .FeaturesIMGWrap {
     position: absolute;
@@ -2374,17 +2432,9 @@ ul.slick-dots {
   margin-bottom: 20px;
 }
 
-/*============Responsive============*/
 @media (max-width: 768px) {
   .ContactWrapper {
     padding-top: 100px;
-  }
-
-  .row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
   }
 
   .ContactWrapper .AboutContaint {
@@ -2408,7 +2458,6 @@ ul.slick-dots {
     font-size: 15px;
   }
 }
-/*============Responsive============*/
 /*============NotFoundPage============*/
 .NotFoundWroa {
   padding-top: 168px;
@@ -2582,6 +2631,70 @@ ul.slick-dots {
   color: #4e4e50;
   border-radius: 5px;
 }
+.FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlaxHED {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+.FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlaxHED .TrialLOGO .logo img {
+  max-width: 250px;
+}
+.FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlaxHED .TrialLangus select {
+  border: 0;
+  border-bottom: 1px solid #0390cf;
+  height: 30px;
+  min-height: 30px;
+  width: 100%;
+  margin: 0;
+  padding: 5px 4px 4px 4px;
+  background: #f9fdff;
+  color: #4e4e50;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 300;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  vertical-align: middle;
+  outline: none;
+}
+.FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlaxHED .FreeTrialQustion a {
+  display: inline-block;
+  margin-left: -17px;
+  margin-top: 5px;
+  color: #4e4e50;
+}
+.FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlaxHED .paddingTop .inputLabel {
+  line-height: 29px;
+  display: block;
+  font-size: 14px;
+  color: #808080;
+  padding: 0 5px 0 0;
+}
+.FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlaxHED .paddingTop .TrialLangus input {
+  border: 0;
+  border-bottom: 1px solid #0390cf;
+  height: 30px;
+  min-height: 30px;
+  width: 100%;
+  margin: 0;
+  padding: 5px 4px 4px 4px;
+  background: #f9fdff;
+  color: #4e4e50;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 300;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  vertical-align: middle;
+  outline: none;
+}
 .FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlax {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2738,6 +2851,27 @@ ul.slick-dots {
   margin: 0 0 0 4px;
 }
 
+@media (max-width: 768px) {
+  .FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlax {
+    display: inline-block;
+    margin-left: 45px;
+  }
+}
+@media (max-width: 425px) {
+  .FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlax {
+    margin-left: 93px;
+  }
+}
+@media (max-width: 375px) {
+  .FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlax {
+    margin-left: 72px;
+  }
+}
+@media (max-width: 320px) {
+  .FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlax {
+    margin-left: 45px;
+  }
+}
 /*============FreeTrial============*/
 /*============FreeDemo============*/
 .FreeDemoWrap {

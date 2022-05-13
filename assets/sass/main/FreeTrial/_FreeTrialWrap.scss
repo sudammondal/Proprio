@@ -18,6 +18,74 @@
         color: #4e4e50;
         border-radius: 5px;
         .FreeTrialInner {
+            .freeTrialFlaxHED {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between; 
+                margin-bottom: 10px;
+                .TrialLOGO {
+                    .logo {
+                        img {
+                            max-width: 250px;
+                        }
+                    }
+                }
+                .TrialLangus { 
+                    select {
+                        border: 0;
+                        border-bottom: 1px solid #0390cf;
+                        height: 30px;
+                        min-height: 30px;
+                        width: 100%;
+                        margin: 0;
+                        padding: 5px 4px 4px 4px;
+                        background: #f9fdff;
+                        color: #4e4e50;
+                        font-size: 16px;
+                        line-height: normal;
+                        font-weight: 300;
+                        box-shadow: none;
+                        vertical-align: middle;
+                        outline: none;
+                    }
+                }
+                .FreeTrialQustion {
+                    a { 
+                        display: inline-block;
+                        margin-left: -17px;
+                        margin-top: 5px;
+                        color: #4e4e50;
+                    }
+                }
+                .paddingTop {
+                    .inputLabel {
+                        line-height: 29px;
+                        display: block;
+                        font-size: 14px;
+                        color: #808080;
+                        padding: 0 5px 0 0;
+                    }
+                    .TrialLangus {
+                        input {
+                            border: 0;
+                            border-bottom: 1px solid #0390cf;
+                            height: 30px;
+                            min-height: 30px;
+                            width: 100%;
+                            margin: 0;
+                            padding: 5px 4px 4px 4px;
+                            background: #f9fdff;
+                            color: #4e4e50;
+                            font-size: 16px;
+                            line-height: normal;
+                            font-weight: 300;
+                            box-shadow: none;
+                            vertical-align: middle;
+                            outline: none;
+                        }
+                    }
+                }
+            }
             .freeTrialFlax {
                 display: flex;
                 align-items: flex-start;
