@@ -53,6 +53,9 @@ body .container {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
+.Header.headerFixed .navbar .CtmCont .navbar-brand {
+  outline: none;
+}
 .Header.headerFixed .navbar .CtmCont .navbar-brand img {
   height: 100%;
   width: 93px;
@@ -1642,6 +1645,9 @@ ul.slick-dots {
   -webkit-transform: rotate(345deg);
           transform: rotate(345deg);
   width: 225px;
+}
+.DemoWrapper .demoSVG .DemoSVG {
+  padding: 10px 0;
 }
 .DemoWrapper .GridSoftwer {
   padding: 80px 0px;
