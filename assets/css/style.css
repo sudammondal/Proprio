@@ -535,7 +535,7 @@ body .container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
+  text-align: left;
 }
 .CardANDslidWrap .testmonials_slied .main_slieda_ttstmonials .test_slid_items .test_item .sliderImg {
   border-radius: 100%;
@@ -1068,6 +1068,16 @@ ul.slick-dots {
 .imagelightbox-arrow {
   background-color: transparent;
   margin: 0;
+}
+
+.imagelightbox-arrow-right:before {
+  font-family: "Fontawesome";
+  content: "" !important;
+}
+
+.imagelightbox-arrow-left:before {
+  font-family: "Fontawesome";
+  content: "" !important;
 }
 
 .imagelightbox-loading,
