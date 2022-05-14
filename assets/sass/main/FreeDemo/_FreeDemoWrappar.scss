@@ -18,7 +18,7 @@
         grid-template-columns: 50% 50%;
         position: relative;
         &::before {
-            contain: "";
+            content: "";
             position: absolute;
             top: 0;
             left: 50%;

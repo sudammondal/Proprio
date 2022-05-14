@@ -78,8 +78,6 @@
                             &.active,
                             &:hover {
                                 color: #5d5d5d;
-                                font-size: 15px;
-
                                 &::before {
                                     width: 100%;
                                     right: 0;
@@ -116,12 +114,12 @@
                                     background-color: transparent;
                                     color: #5d5d5d;
                                     border-color: #32327b;
-                                    font-size: 15px;
                                 }
                             }
 
                             &.fontSiz {
-                                    font-size: 14px;&::before {
+                                    font-size: 14px;
+                                    &::before {
                                     display: none;
                                 }
                             }
