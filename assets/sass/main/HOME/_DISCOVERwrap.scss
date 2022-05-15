@@ -1,6 +1,7 @@
 .DISCOVERwrap {
     padding-top: 100px;
-    .discoverGrid {
+    .discoverGrid { 
+        overflow: hidden;
         display: grid;
         grid-template-columns: 50% 50%;
         align-items: center;

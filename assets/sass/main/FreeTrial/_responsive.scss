@@ -1,47 +1,22 @@
 @media (max-width: 768px){
-    .FreeTrialWrap {
-        .FreeTrialContaint {
-            .FreeTrialInner {
-                .freeTrialFlax {
-                    display: inline-block;
-                    margin-left: 45px;
-            
-                }
-            }
-            
-        }
+    .FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlax {
+        display: inline-block;
+        margin-left: 45px;
+
     }
 }
 @media (max-width: 425px){
-    .FreeTrialWrap {
-        .FreeTrialContaint {
-            .FreeTrialInner {
-                .freeTrialFlax {
-                    margin-left: 93px;
-                }
-            }
-        }
+    .FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlax {
+        margin-left: 93px;
     }
 }
 @media (max-width: 375px){
-    .FreeTrialWrap {
-        .FreeTrialContaint {
-            .FreeTrialInner {
-                .freeTrialFlax {
-                    margin-left: 72px;
-                }
-            }
-        }
+    .FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlax {
+        margin-left: 72px;
     }
 }
 @media (max-width: 320px){
-    .FreeTrialWrap {
-        .FreeTrialContaint {
-            .FreeTrialInner {
-                .freeTrialFlax {
-                    margin-left: 45px;
-                }
-            }
-        }
+    .FreeTrialWrap .FreeTrialContaint .FreeTrialInner .freeTrialFlax {
+        margin-left: 45px;
     }
 }

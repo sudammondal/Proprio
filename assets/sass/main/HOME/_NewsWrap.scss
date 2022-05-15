@@ -9,61 +9,62 @@
         font-family: "Quicksand", "sans-serif";
         margin-bottom: 60px;
     }
-    .card {
-        border: none;
-        box-shadow: none;
-        .card-body {
-            padding: 18px 0px;
-            .card-title {
-                font-size: 21px;    
-                font-family: "Quicksand", "sans-serif";
-                font-weight: 500;
-                line-height: 1.1;
-                color: #3A3B74;
-                transition: all .3s;
-                cursor: pointer;
-                margin-bottom: 16px;
-                &:hover {
-                    color: #5c5c5c;
+    
+        .card {
+            border: none;
+            box-shadow: none;
+            .card-body {
+                padding: 18px 0px;
+                .card-title {
+                    font-size: 21px;    
+                    font-family: "Quicksand", "sans-serif";
+                    font-weight: 500;
+                    line-height: 1.1;
+                    color: #3A3B74;
+                    transition: all .3s;
+                    cursor: pointer;
+                    margin-bottom: 16px;
+                    &:hover {
+                        color: #5c5c5c;
+                    }
                 }
-            }
-            p {
-                margin-bottom: 22px;
-                line-height: 1.5em;
-                font-size: 14px;
-                color: #777;
-                a {
-                    display: inline-block;
+                p {
+                    margin-bottom: 22px;
+                    line-height: 1.5em;
+                    font-size: 14px;
                     color: #777;
+                    a {
+                        display: inline-block;
+                        color: #777;
+                    }
+                   
                 }
-                
-            }
-            .card-text {
-                font-size: 12px;
-                font-weight: 700;
-                text-transform: uppercase;
-                line-height: 1.42;
-                color: #00aeef; 
-                cursor: pointer;
-                margin-bottom: 5px;
-                &:hover {
-                    color: #5c5c5c;
+                .card-text {
+                    font-size: 12px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    line-height: 1.42;
+                    color: #00aeef; 
+                    cursor: pointer;
+                    margin-bottom: 5px;
+                    &:hover {
+                        color: #5c5c5c;
+                    }
                 }
             }
-        }
-        .card-footer {
-            border-top: none;
-            background: transparent;
-            padding: 0;
-            margin-bottom: 13px;
-            .text-muted {
-                line-height: 1.3em;
-                font-size: 12px;
+            .card-footer {
+                border-top: none;
+                background: transparent;
+                padding: 0;
                 margin-bottom: 13px;
-                color: #adadad;
-                
-            }
-        }   
-    }
+                .text-muted {
+                    line-height: 1.3em;
+                    font-size: 12px;
+                    margin-bottom: 13px;
+                    color: #adadad;
+                    
+                }
+            }   
+        }
     
 }

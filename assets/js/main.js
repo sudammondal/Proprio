@@ -26,7 +26,7 @@ $(document).ready(function () {
         centerPadding: '0',
         centerMode: false,
         dots: true,
-        arrows: true,
+        arrows: false,
         infinite: true,
         speed: 1500,
         responsive: [{

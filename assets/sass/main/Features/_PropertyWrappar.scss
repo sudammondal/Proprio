@@ -27,6 +27,7 @@
         align-items: center;
         justify-content: center;
         margin-top: 70px;
+        overflow: hidden;
         .PropertyImg {
             padding: 10px;
             .PropertyIMG {
@@ -106,4 +107,6 @@
             }
         }
     }
+    
+
 }

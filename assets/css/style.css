@@ -738,6 +738,7 @@ ul.slick-dots {
   padding-top: 100px;
 }
 .DISCOVERwrap .discoverGrid {
+  overflow: hidden;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
@@ -1797,7 +1798,6 @@ ul.slick-dots {
   color: #5c5c5c;
   background-color: transparent;
 }
-
 .AboutWorkWrappar {
   margin: 228px 0 120px 0;
 }
@@ -1859,6 +1859,129 @@ ul.slick-dots {
 }
 
 /*============Responsive============*/
+@media (max-width: 1960px) {
+  .DemoWrapper .MobileTab .WWimgss {
+    right: -27px;
+    top: 75px;
+  }
+
+  .DemoWrapper .MobileTab .wwwim {
+    right: 139px;
+    top: 447px;
+  }
+
+  .DemoWrapper .MobileTab .mobilIMG {
+    right: -120px;
+    top: 379px;
+  }
+}
+@media (max-width: 1400px) {
+  .DemoWrapper .MobileTab .WWimgss {
+    right: -27px;
+    top: 47px;
+  }
+
+  .DemoWrapper .MobileTab .wwwim {
+    right: 13px;
+    top: 430px;
+  }
+
+  .DemoWrapper .MobileTab .mobilIMG {
+    right: -250px;
+    top: 362px;
+  }
+}
+@media (max-width: 768px) {
+  .DemoWrapper .MobileTab {
+    display: none;
+  }
+  .DemoWrapper .demoSVG .DemoSVG {
+    display: none;
+  }
+
+  .WHYWrap {
+    padding-top: 200px;
+  }
+  .WHYWrap .WHYBanner {
+    text-align: left;
+  }
+
+  .DemoWrapper .GridSoftwer {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+  }
+
+  .DemoWrapper .GridSoftwer .SoftwerInner .SoftwerTitle .SoftwerHead {
+    font-size: 30px;
+  }
+
+  .DemoWrapper .GridSoftwer .SoftwerInner .SoftwerTitle .SoftPra {
+    font-size: 14px;
+  }
+
+  .DemoWrapper .GridSoftwer .SoftwerInner .SoftwerTitle .FREETRIALbtn a {
+    font-size: 14px;
+  }
+
+  .DemoWrapper .GridSoftwer {
+    margin-bottom: 0;
+  }
+
+  .DemoWrapper .discoverGrid {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+  }
+
+  .DemoWrapper .GridSoftwer {
+    padding: 40px 0px;
+  }
+
+  .DemoWrapper .discoverGrid {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .DemoWrapper .discoverGrid .SoftwerTitle .SoftwerHead {
+    font-size: 30px;
+  }
+
+  .DemoWrapper .discoverGrid .SoftwerTitle .SoftPra {
+    font-size: 14px;
+  }
+
+  .DemoWrapper .discoverGrid .discoverImg .DiscIMG {
+    margin-bottom: 15px;
+  }
+
+  .DemoWrapper .discoverGrid .discoverImg.MT {
+    margin-top: 15px;
+  }
+
+  .AboutWorkWrappar {
+    margin: 28px 0 120px 0;
+  }
+
+  .AboutWorkWrappar .AboutHEAD {
+    font-size: 30px;
+  }
+
+  .AboutWorkWrappar .AbourGrid {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+  }
+
+  .AboutWorkWrappar .AbourGrid .AboutInner {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .WHYWrap {
+    padding-top: 200px;
+  }
+  .WHYWrap .WHYBanner {
+    text-align: center;
+  }
+}
 @media (max-width: 1960px) {
   .DemoWrapper .MobileTab .WWimgss {
     right: -27px;
@@ -2049,6 +2172,7 @@ ul.slick-dots {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 70px;
+  overflow: hidden;
 }
 .PropertyWrapper .PropertyGrid .PropertyImg {
   padding: 10px;
@@ -2196,6 +2320,11 @@ ul.slick-dots {
     right: -30px;
     max-width: 500px;
     top: -132px;
+  }
+
+  .DemoWrapper .MobileTab .WWimgss {
+    right: -152px;
+    top: 49px;
   }
 }
 @media (max-width: 768px) {
@@ -2516,6 +2645,7 @@ ul.slick-dots {
     max-width: 90%;
     width: 100%;
   }
+
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
     max-width: 10%;
     width: 100%;
@@ -2526,6 +2656,7 @@ ul.slick-dots {
     max-width: 86%;
     width: 100%;
   }
+
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
     max-width: 14%;
     width: 100%;
@@ -2536,6 +2667,7 @@ ul.slick-dots {
     max-width: 77%;
     width: 100%;
   }
+
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
     max-width: 23%;
     width: 100%;
@@ -2546,6 +2678,7 @@ ul.slick-dots {
     max-width: 74%;
     width: 100%;
   }
+
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
     max-width: 26%;
     width: 100%;
@@ -2556,8 +2689,9 @@ ul.slick-dots {
     max-width: 68%;
     width: 100%;
   }
+
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
-    max-width: 26%;
+    max-width: 32%;
     width: 100%;
   }
 }
@@ -2863,7 +2997,7 @@ ul.slick-dots {
   position: relative;
 }
 .FreeDemoWrap .FreeDemoContaint::before {
-  content: "";
+  contain: "";
   position: absolute;
   top: 0;
   left: 50%;
@@ -3162,8 +3296,7 @@ ul.slick-dots {
 
 /*============responsive============*/
 @media screen and (max-width: 1024px) {
-  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li li,
-.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li, .days li {
     width: 12.6%;
   }
 }
@@ -3177,19 +3310,21 @@ ul.slick-dots {
   .FreeDemoWrap .FreeDemoContaint .FreeDemoItem {
     padding: 30px 170px;
   }
+
   .FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoTitle {
     text-align: center;
   }
+
   .FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoHead {
     text-align: center;
   }
+
   .FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoHead.FontSiz {
     padding-right: 0;
   }
 }
 @media screen and (max-width: 720px) {
-  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li li,
-.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander.weekdays li, .days li {
     width: 13.1%;
   }
 }
@@ -3199,17 +3334,16 @@ ul.slick-dots {
   }
 }
 @media screen and (max-width: 420px) {
-  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li li,
-.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li, .days li {
     width: 12.5%;
   }
-  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li .active {
+
+  .days li .active {
     padding: 2px;
   }
 }
 @media screen and (max-width: 290px) {
-  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li li,
-.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li, .days li {
     width: 12.2%;
   }
 }
@@ -3447,6 +3581,11 @@ ul.slick-dots {
   color: #15beff;
 }
 
+@media (max-width: 648px) {
+  .LoginlWrap .LoginLangusENG {
+    display: none;
+  }
+}
 /*============Forgetmail============*/
 .ForgetMailWrap {
   height: 100vh;
@@ -3607,4 +3746,10 @@ ul.slick-dots {
 .ForgetMailWrap .ForgetMailContaintWrapper .ForgetMailContaint .ForgetMailInner .ForgetMailBUTTON .ForgetMailBtnTwo {
   background: #03a9f4;
   margin: 0 0 0 4px;
+}
+
+@media (max-width: 648px) {
+  .ForgetMailWrap .ForgetMailLangusENG {
+    display: none;
+  }
 }

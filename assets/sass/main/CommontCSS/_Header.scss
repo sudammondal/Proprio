@@ -118,8 +118,7 @@
                             }
 
                             &.fontSiz {
-                                    font-size: 14px;
-                                    &::before {
+                                    font-size: 14px;&::before {
                                     display: none;
                                 }
                             }
@@ -169,6 +168,7 @@
                                 right: 0;
                             }
                         }
+
                     }
                 }
             }

@@ -1,117 +1,65 @@
 @media (max-width: 2560px) {
-    .NotFoundWroa {
-        .NotfoundMain {
-            .SearchBos {
-                .FromNotfount {
-                    input[type=text] {
-                        max-width: 92%;
-                        width: 100%;
-                    }
-                }
-            }
-        }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount input[type=text] {
+        max-width: 92%;
+        width: 100%;
     }
-    .NotFoundWroa {
-        .NotfoundMain {
-            .SearchBos {
-                .FromNotfount {
-                    button {
-                        max-width: 8%;
-                        width: 100%;
-                    }
-                }
-            }
-        }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
+        max-width: 8%;
+        width: 100%;
     }
+    
 }
 @media (max-width: 1040px) {
-    .NotFoundWroa {
-        .NotfoundMain {
-            .SearchBos {
-                .FromNotfount {
-                    input[type=text] {
-                        max-width: 90%;
-                        width: 100%;
-                    }
-                    button {
-                        max-width: 10%;
-                        width: 100%;
-                    }
-                }
-            }
-        }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount input[type=text] {
+        max-width: 90%;
+        width: 100%;
     }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
+        max-width: 10%;
+        width: 100%;
+    }
+    
 }
 @media (max-width: 768px) {
-    .NotFoundWroa {
-        .NotfoundMain {
-            .SearchBos {
-                .FromNotfount{
-                    input[type=text] {
-                        max-width: 86%;
-                        width: 100%;
-                    }
-                    button {
-                        max-width: 14%;
-                        width: 100%;
-                    }
-                }
-            }
-        }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount input[type=text] {
+        max-width: 86%;
+        width: 100%;
     }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
+        max-width: 14%;
+        width: 100%;
+    }
+    
 }
 @media (max-width: 425px) {
-    .NotFoundWroa {
-        .NotfoundMain {
-            .SearchBos {
-                .FromNotfount{
-                    input[type=text] {
-                        max-width: 77%;
-                        width: 100%;
-                    }
-                    button {
-                        max-width: 23%;
-                        width: 100%;
-                    }
-                }
-            }
-        }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount input[type=text] {
+        max-width: 77%;
+        width: 100%;
     }
- 
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
+        max-width: 23%;
+        width: 100%;
+    }
+    
 }
 @media (max-width: 375px) {
-    .NotFoundWroa {
-        .NotfoundMain {
-            .SearchBos {
-                .FromNotfount{
-                    input[type=text] {
-                        max-width: 74%;
-                        width: 100%;
-                    }
-                    button {
-                        max-width: 26%;
-                        width: 100%;
-                    }
-                }
-            }
-        }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount input[type=text] {
+        max-width: 74%;
+        width: 100%;
     }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
+        max-width: 26%;
+        width: 100%;
+    }
+    
 }
 @media (max-width: 320px) {
-    .NotFoundWroa {
-        .NotfoundMain {
-            .SearchBos {
-                .FromNotfount{
-                    input[type=text] {
-                        max-width: 68%;
-                        width: 100%;
-                    }
-                    button {
-                        max-width: 26%;
-                        width: 100%;
-                    }
-                }
-            }
-        }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount input[type=text] {
+        max-width: 68%;
+        width: 100%;
+    }
+    .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
+        max-width: 32%;
+        width: 100%;
     }
 }
