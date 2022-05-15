@@ -1,17 +1,25 @@
 @media (max-width: 1024px) {
-    .FeaturesWrap .FeaturesBannerRight .FeaturesIMGWrap {
-        right: -30px;
-        max-width: 500px;
-        top: -132px;
+    .FeaturesWrap {
+        .FeaturesBannerRight {
+            .FeaturesIMGWrap {
+                right: -30px;
+                max-width: 500px;
+                top: -132px;
+            }
+        }
     }
   
 }
 @media (max-width: 768px) {
-    .FeaturesWrap .FeaturesBannerRight .FeaturesIMGWrap {
-        position: absolute;
-        right: inherit;
-        width: initial; 
-        top: initial;
+    .FeaturesWrap {
+        .FeaturesBannerRight {
+            .FeaturesIMGWrap {
+                position: absolute;
+                right: inherit;
+                width: initial; 
+                top: initial;
+            }
+        }
     }
   
 }
@@ -19,38 +27,50 @@
     .FeaturesWrap {
         padding: 166px 0 290px 0;
         text-align: center;
+        .FeaturesBanner {
+            margin-bottom: 80px;
+            .Featureshead {
+                font-size: 35px;
+            }
+            .FeaturesPrag {
+                font-size: 16px;
+                line-height: 1.3;
+            }
+        }
+        .FeaturesBannerRight  {
+            text-align: center;
+        }
     }
-    .FeaturesWrap .FeaturesBanner {
-        margin-bottom: 80px;
+    .PropertyWrapper {
+        .PropertyHeadTitle {
+            .PropertyHead {
+                font-size: 30px;
+            } 
+            .PropertyHeadbtm {
+                font-size: 20px; 
+            }
+        }
+        .PropertyGrid {
+            grid-template-columns: 100%;
+            .PropertyTitle {
+                .PropertyHead {
+                    font-size: 20px;
+            
+                }
+                .PropertyPra {
+                    font-size: 16px; 
+                }
+            }
+        }
     }
-    .FeaturesWrap .FeaturesBanner .Featureshead {
-        font-size: 35px;
-    }
-    .FeaturesWrap .FeaturesBanner .FeaturesPrag {
-        font-size: 16px;
-        line-height: 1.3;
-    }
-    .FeaturesWrap .FeaturesBannerRight  {
-        text-align: center;
-    }
-    .PropertyWrapper .PropertyGrid {
-        grid-template-columns: 100%;
-    }
-    .PropertyWrapper .PropertyHeadTitle .PropertyHead {
-        font-size: 30px;
-    }
-    .PropertyWrapper .PropertyGrid .PropertyTitle .PropertyHead {
-        font-size: 20px;
-
-    }
-    .PropertyWrapper .PropertyGrid .PropertyTitle .PropertyPra {
-        font-size: 16px; 
-    }
-    .PropertyWrapper .PropertyHeadTitle .PropertyHeadbtm {
-        font-size: 20px; 
-    }
-    .SoftwareManagement .SoftwareManagementMiin .SoftwareManagementContint .SoftwareManagementHead {
-        font-size: 20px;
+    .SoftwareManagement {
+        .SoftwareManagementMiin {
+            .SoftwareManagementContint  {
+                .SoftwareManagementHead {
+                    font-size: 20px;
+                }
+            }
+        }
     }
     
 }

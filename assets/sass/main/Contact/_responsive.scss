@@ -2,25 +2,33 @@
 @media (max-width: 768px) {
     .ContactWrapper {
         padding-top: 100px;
-    }
-    .ContactWrapper .AboutContaint {
-        margin: 0px 0;
-    }
-    .ContactWrapper .ContactGrid {
-        grid-template-columns: 100%;
-        .ContactItems {
-            border-right: 0;
-            border-bottom: 1px solid #e2e2e2;
-            &:last-child {
-                border: none;
+        .AboutContaint {
+            margin: 0px 0;
+        }
+        .ContactGrid {
+            grid-template-columns: 100%;
+            .ContactItems {
+                border-right: 0;
+                border-bottom: 1px solid #e2e2e2;
+                &:last-child {
+                    border: none;
+                }
             }
         }
-        
     }
+   
 }
 
 @media (max-width: 425px) {
-    .ContactWrapper .ContactGrid .ContactItems .ContactLINK a {
-        font-size: 15px;
+    .ContactWrapper {
+        .ContactGrid {
+            .ContactItems {
+                .ContactLINK {
+                    a {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
     }
 }

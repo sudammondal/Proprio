@@ -1797,6 +1797,7 @@ ul.slick-dots {
   color: #5c5c5c;
   background-color: transparent;
 }
+
 .AboutWorkWrappar {
   margin: 228px 0 120px 0;
 }
@@ -1863,12 +1864,10 @@ ul.slick-dots {
     right: -27px;
     top: 75px;
   }
-
   .DemoWrapper .MobileTab .wwwim {
     right: 139px;
     top: 447px;
   }
-
   .DemoWrapper .MobileTab .mobilIMG {
     right: -120px;
     top: 379px;
@@ -1879,12 +1878,10 @@ ul.slick-dots {
     right: -27px;
     top: 47px;
   }
-
   .DemoWrapper .MobileTab .wwwim {
     right: 13px;
     top: 430px;
   }
-
   .DemoWrapper .MobileTab .mobilIMG {
     right: -250px;
     top: 362px;
@@ -1897,61 +1894,36 @@ ul.slick-dots {
   .DemoWrapper .demoSVG .DemoSVG {
     display: none;
   }
-
-  .WHYWrap {
-    padding-top: 200px;
-  }
-  .WHYWrap .WHYBanner {
-    text-align: left;
-  }
-
   .DemoWrapper .GridSoftwer {
     -ms-grid-columns: 100%;
     grid-template-columns: 100%;
+    margin-bottom: 0;
+    padding: 40px 0px;
   }
-
   .DemoWrapper .GridSoftwer .SoftwerInner .SoftwerTitle .SoftwerHead {
     font-size: 30px;
   }
-
   .DemoWrapper .GridSoftwer .SoftwerInner .SoftwerTitle .SoftPra {
     font-size: 14px;
   }
-
   .DemoWrapper .GridSoftwer .SoftwerInner .SoftwerTitle .FREETRIALbtn a {
     font-size: 14px;
   }
-
-  .DemoWrapper .GridSoftwer {
-    margin-bottom: 0;
-  }
-
   .DemoWrapper .discoverGrid {
     -ms-grid-columns: 100%;
     grid-template-columns: 100%;
-  }
-
-  .DemoWrapper .GridSoftwer {
-    padding: 40px 0px;
-  }
-
-  .DemoWrapper .discoverGrid {
     margin-top: 0;
     margin-bottom: 40px;
   }
-
   .DemoWrapper .discoverGrid .SoftwerTitle .SoftwerHead {
     font-size: 30px;
   }
-
   .DemoWrapper .discoverGrid .SoftwerTitle .SoftPra {
     font-size: 14px;
   }
-
   .DemoWrapper .discoverGrid .discoverImg .DiscIMG {
     margin-bottom: 15px;
   }
-
   .DemoWrapper .discoverGrid .discoverImg.MT {
     margin-top: 15px;
   }
@@ -1959,18 +1931,22 @@ ul.slick-dots {
   .AboutWorkWrappar {
     margin: 28px 0 120px 0;
   }
-
   .AboutWorkWrappar .AboutHEAD {
     font-size: 30px;
   }
-
   .AboutWorkWrappar .AbourGrid {
     -ms-grid-columns: 100%;
     grid-template-columns: 100%;
   }
-
   .AboutWorkWrappar .AbourGrid .AboutInner {
     margin-bottom: 30px;
+  }
+
+  .WHYWrap {
+    padding-top: 200px;
+  }
+  .WHYWrap .WHYBanner {
+    text-align: left;
   }
 }
 @media (max-width: 768px) {
@@ -2235,43 +2211,35 @@ ul.slick-dots {
     padding: 166px 0 290px 0;
     text-align: center;
   }
-
   .FeaturesWrap .FeaturesBanner {
     margin-bottom: 80px;
   }
-
   .FeaturesWrap .FeaturesBanner .Featureshead {
     font-size: 35px;
   }
-
   .FeaturesWrap .FeaturesBanner .FeaturesPrag {
     font-size: 16px;
     line-height: 1.3;
   }
-
   .FeaturesWrap .FeaturesBannerRight {
     text-align: center;
-  }
-
-  .PropertyWrapper .PropertyGrid {
-    -ms-grid-columns: 100%;
-    grid-template-columns: 100%;
   }
 
   .PropertyWrapper .PropertyHeadTitle .PropertyHead {
     font-size: 30px;
   }
-
+  .PropertyWrapper .PropertyHeadTitle .PropertyHeadbtm {
+    font-size: 20px;
+  }
+  .PropertyWrapper .PropertyGrid {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+  }
   .PropertyWrapper .PropertyGrid .PropertyTitle .PropertyHead {
     font-size: 20px;
   }
-
   .PropertyWrapper .PropertyGrid .PropertyTitle .PropertyPra {
     font-size: 16px;
-  }
-
-  .PropertyWrapper .PropertyHeadTitle .PropertyHeadbtm {
-    font-size: 20px;
   }
 
   .SoftwareManagement .SoftwareManagementMiin .SoftwareManagementContint .SoftwareManagementHead {
@@ -2434,11 +2402,9 @@ ul.slick-dots {
   .ContactWrapper {
     padding-top: 100px;
   }
-
   .ContactWrapper .AboutContaint {
     margin: 0px 0;
   }
-
   .ContactWrapper .ContactGrid {
     -ms-grid-columns: 100%;
     grid-template-columns: 100%;
@@ -2550,7 +2516,6 @@ ul.slick-dots {
     max-width: 90%;
     width: 100%;
   }
-
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
     max-width: 10%;
     width: 100%;
@@ -2561,7 +2526,6 @@ ul.slick-dots {
     max-width: 86%;
     width: 100%;
   }
-
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
     max-width: 14%;
     width: 100%;
@@ -2572,7 +2536,6 @@ ul.slick-dots {
     max-width: 77%;
     width: 100%;
   }
-
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
     max-width: 23%;
     width: 100%;
@@ -2583,7 +2546,6 @@ ul.slick-dots {
     max-width: 74%;
     width: 100%;
   }
-
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
     max-width: 26%;
     width: 100%;
@@ -2594,9 +2556,8 @@ ul.slick-dots {
     max-width: 68%;
     width: 100%;
   }
-
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
-    max-width: 32%;
+    max-width: 26%;
     width: 100%;
   }
 }
@@ -3201,7 +3162,8 @@ ul.slick-dots {
 
 /*============responsive============*/
 @media screen and (max-width: 1024px) {
-  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li, .days li {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li li,
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li {
     width: 12.6%;
   }
 }
@@ -3215,21 +3177,19 @@ ul.slick-dots {
   .FreeDemoWrap .FreeDemoContaint .FreeDemoItem {
     padding: 30px 170px;
   }
-
   .FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoTitle {
     text-align: center;
   }
-
   .FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoHead {
     text-align: center;
   }
-
   .FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoHead.FontSiz {
     padding-right: 0;
   }
 }
 @media screen and (max-width: 720px) {
-  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander.weekdays li, .days li {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li li,
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li {
     width: 13.1%;
   }
 }
@@ -3239,16 +3199,17 @@ ul.slick-dots {
   }
 }
 @media screen and (max-width: 420px) {
-  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li, .days li {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li li,
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li {
     width: 12.5%;
   }
-
-  .days li .active {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li .active {
     padding: 2px;
   }
 }
 @media screen and (max-width: 290px) {
-  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li, .days li {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li li,
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li {
     width: 12.2%;
   }
 }
