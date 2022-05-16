@@ -1,10 +1,14 @@
 @media (max-width: 1024px) {
-    .BlogWrap .GridBlog {
-        grid-template-columns: auto auto;
+    .BlogWrap {
+        .GridBlog {
+            grid-template-columns: auto auto;
+        }
     }
 }
 @media (max-width: 425px) {
-    .BlogWrap .GridBlog {
-        grid-template-columns: auto;
+    .BlogWrap {
+        .GridBlog {
+            grid-template-columns: auto;
+        }
     }
 }

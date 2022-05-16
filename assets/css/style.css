@@ -2530,7 +2530,6 @@ ul.slick-dots {
     max-width: 90%;
     width: 100%;
   }
-
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
     max-width: 10%;
     width: 100%;
@@ -2541,7 +2540,6 @@ ul.slick-dots {
     max-width: 86%;
     width: 100%;
   }
-
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
     max-width: 14%;
     width: 100%;
@@ -2552,7 +2550,6 @@ ul.slick-dots {
     max-width: 77%;
     width: 100%;
   }
-
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
     max-width: 23%;
     width: 100%;
@@ -2563,7 +2560,6 @@ ul.slick-dots {
     max-width: 74%;
     width: 100%;
   }
-
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
     max-width: 26%;
     width: 100%;
@@ -2574,9 +2570,8 @@ ul.slick-dots {
     max-width: 68%;
     width: 100%;
   }
-
   .NotFoundWroa .NotfoundMain .SearchBos .FromNotfount button {
-    max-width: 32%;
+    max-width: 26%;
     width: 100%;
   }
 }
@@ -3181,7 +3176,8 @@ ul.slick-dots {
 
 /*============responsive============*/
 @media screen and (max-width: 1024px) {
-  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li, .days li {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li li,
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li {
     width: 12.6%;
   }
 }
@@ -3195,21 +3191,19 @@ ul.slick-dots {
   .FreeDemoWrap .FreeDemoContaint .FreeDemoItem {
     padding: 30px 170px;
   }
-
   .FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoTitle {
     text-align: center;
   }
-
   .FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoHead {
     text-align: center;
   }
-
   .FreeDemoWrap .FreeDemoContaint .FreeDemoItem .DemoHead.FontSiz {
     padding-right: 0;
   }
 }
 @media screen and (max-width: 720px) {
-  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander.weekdays li, .days li {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li li,
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li {
     width: 13.1%;
   }
 }
@@ -3219,16 +3213,17 @@ ul.slick-dots {
   }
 }
 @media screen and (max-width: 420px) {
-  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li, .days li {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li li,
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li {
     width: 12.5%;
   }
-
-  .days li .active {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li .active {
     padding: 2px;
   }
 }
 @media screen and (max-width: 290px) {
-  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li, .days li {
+  .FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays li li,
+.FreeDemoWrap .FreeDemoContaint .FreeDemoClander .weekdays .days li {
     width: 12.2%;
   }
 }
