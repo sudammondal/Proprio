@@ -1,101 +1,3 @@
-@media (max-width: 1960px) {
-    .DemoWrapper .MobileTab .WWimgss {
-        right: -27px;
-        top: 75px;
-    }
-    .DemoWrapper .MobileTab .wwwim {
-        right: 139px;
-        top: 447px;
-    }
-    .DemoWrapper .MobileTab .mobilIMG {
-        right: -120px;
-        top: 379px;
-    }
-}
-@media (max-width: 1400px) {
-    .DemoWrapper .MobileTab .WWimgss {
-        right: -27px;
-        top: 47px;
-    }
-    .DemoWrapper .MobileTab .wwwim {
-        right: 13px;
-        top: 430px;
-    }
-    .DemoWrapper .MobileTab .mobilIMG {
-        right: -250px;
-        top: 362px;
-    }
-}
-
-@media (max-width: 768px) {
-   
-    .DemoWrapper {
-        .MobileTab {
-            display: none;
-        } 
-        .demoSVG {
-            .DemoSVG {
-                display: none;
-            }
-        }
-    }
-    .WHYWrap {
-        padding-top: 200px;
-        .WHYBanner {
-            text-align: left;
-        }
-    }
-    .DemoWrapper .GridSoftwer  {
-        grid-template-columns: 100%;
-    }
-    .DemoWrapper .GridSoftwer .SoftwerInner .SoftwerTitle .SoftwerHead {
-        font-size: 30px;
-    }
-    .DemoWrapper .GridSoftwer .SoftwerInner .SoftwerTitle .SoftPra {
-        font-size: 14px;
-    }
-    .DemoWrapper .GridSoftwer .SoftwerInner .SoftwerTitle .FREETRIALbtn a {
-        font-size: 14px;
-    }
-    .DemoWrapper .GridSoftwer {
-        margin-bottom: 0;
-    }
-    .DemoWrapper .discoverGrid {
-        grid-template-columns: 100%;
-    }
-    .DemoWrapper .GridSoftwer {
-        padding: 40px 0px;
-    }
-    .DemoWrapper .discoverGrid {
-        margin-top: 0;
-        margin-bottom: 40px;
-    }
-    .DemoWrapper .discoverGrid .SoftwerTitle .SoftwerHead {
-        font-size: 30px;
-    }
-    .DemoWrapper .discoverGrid .SoftwerTitle .SoftPra {
-        font-size: 14px;
-    }
-    .DemoWrapper .discoverGrid .discoverImg .DiscIMG {
-        margin-bottom: 15px;
-    }
-    .DemoWrapper .discoverGrid .discoverImg.MT {
-        margin-top: 15px;
-    }
-    .AboutWorkWrappar {
-        margin: 28px 0 120px 0;
-    }
-    .AboutWorkWrappar .AboutHEAD {
-        font-size: 30px;
-    }
-    .AboutWorkWrappar .AbourGrid {
-        grid-template-columns: 100%;
-    }
-    .AboutWorkWrappar .AbourGrid .AboutInner {
-        margin-bottom: 30px;
-    }
-    
-}
 @media (max-width: 768px) {
     .WHYWrap {
         padding-top: 200px;
@@ -104,7 +6,8 @@
         }
     }
 
- }@media (max-width: 1960px) {
+ }
+ @media (max-width: 1960px) {
     .DemoWrapper{
         .MobileTab {
             .WWimgss {
@@ -127,7 +30,7 @@
     .DemoWrapper {
         .MobileTab {
             .WWimgss {
-                right: -27px;
+                right: -153px;
                 top: 47px;
             }
             .wwwim {
